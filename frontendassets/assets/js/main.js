@@ -110,7 +110,7 @@
             center: true,
             margin: 20,
             autoplay: true,
-            autoplayTimeout: 3000,
+            autoplayTimeout: 5000,
             smartSpeed: 1000,
             responsiveClass: true,
             responsive: {
@@ -123,7 +123,7 @@
 
                 },
                 1000: {
-                    items: 3,
+                    items: 1,
 
                 }
             }

@@ -57,17 +57,25 @@
              <div class="col-lg-2"></div>
                 <div class="col-lg-8">
                     <div class="blog-form-area">
-                        <form name="frmContact" id="frmContact" action="{{ url('/newpatient') }}" method="post">
+                        <form name="frmContact" id="frmContact" action="{{ url('/transferpatient') }}" method="post">
 						<input type="hidden" name="frmCont" name="frmCont" value="frmCont" />
-                        <h3>New Patient</h3>
+                        <h3>Transfer RX Request Form</h3>
                             <label>Name of Patient</label>
-                            <input type="text" name="newpatients_name" id="newpatients_name" value="" required>
+                            <input type="text" name="transfers_patname" id="transfers_patname" value="" required>
                             <label>Phone Number of Patient</label>
-                            <input type="text" name="newpatients_pnum" id="newpatients_pnum" value="" required>
+                            <input type="text" name="transfers_patpnum" id="transfers_patpnum" value="" required>
                             <label>Date of Birth</label>
-                            <input type="text" name="newpatients_dob" id="newpatients_dob" value="" required>
+                            <input type="text" name="transfers_patdob" id="transfers_patdob" value="" required>
+                            <label>Tranfering Pharmacy Name</label>
+                            <input type="text" name="transfers_pharmname" id="transfers_phramname" value="" required>
+                            <label>Phone Number of Tranfering Pharmacy Name</label>
+                            <input type="text" id="transfers_pharmnum" name="transfers_pharmnum" value="" required>
                             <label>RX Number</label>
-                            <input type="text" id="newpatients_rxnum" name="newpatients_rxnum" value="" required>
+                            <input type="text" id="transfers_rxnum" name="transfers_rxnum" value="" required>
+                            <label>Name of Medication</label>
+                            <input type="text" id="transfers_med" name="transfers_med" value="" required>
+                            <label>Other Special Note</label>
+                            <textarea cols="30" rows="10" name="transfers_note" id="transfers_note" required></textarea>
                             <button class="team-1" type="submit">Send</button>
                         </form>
                     </div>

@@ -4,10 +4,15 @@
 
 
     <!--hero-area-start-->
-    <div>
-        <div class="single-slider-active owl-carousel">
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            </div>
+        <div class="carousel-inner">
 
-            <div>
+            <div class="carousel-item active">
                 <div class="hero-area position-relative">
                     <img src="{{ asset('frontendassets/assets/img/homepage2/hero-img.png') }}" alt="" class="hero-img">
                     <div class="container">
@@ -25,7 +30,7 @@
                 </div>
             </div>
 
-            <div>
+            <div class="carousel-item">
                 <div class="hero-area position-relative">
                     <img src="{{ asset('frontendassets/assets/img/homepage2/hany-bg.png') }}" alt="" class="hero-img">
                     <div class="container">
@@ -43,6 +48,14 @@
                 </div>
             </div>
 
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev" style="border:none;">
+            <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next" style="border:none;">
+            <span class="carousel-control-next-icon"></span>
+            </button>
 
         </div>
     </div>

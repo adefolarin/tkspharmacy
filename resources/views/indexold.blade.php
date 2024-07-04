@@ -4,46 +4,19 @@
 
 
     <!--hero-area-start-->
-    <div>
-        <div class="single-slider-active owl-carousel">
-
-            <div>
-                <div class="hero-area position-relative">
-                    <img src="{{ asset('frontendassets/assets/img/homepage2/hero-img.png') }}" alt="" class="hero-img">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="hero-containt">
-                                    
-                                    <p>Your health. Our priority.</p>
-                                    <h3>100% pure <br> Pharmacy.</h3>
-                                    <a href="#" class="theme-btn">Contact Us</a>
-                                </div>
-                            </div>
-                        </div>
+    <div class="hero-area position-relative">
+        <img src="{{ asset('frontendassets/assets/img/homepage2/hero-img.png') }}" alt="" class="hero-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hero-containt">
+						
+                        <p>Your health. Our priority.</p>
+                        <h3>100% pure <br> Pharmacy.</h3>
+                        <a href="#" class="theme-btn">Contact Us</a>
                     </div>
                 </div>
             </div>
-
-            <div>
-                <div class="hero-area position-relative">
-                    <img src="{{ asset('frontendassets/assets/img/homepage2/hany-bg.png') }}" alt="" class="hero-img">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="hero-containt">
-                                    
-                                    <p>Your health. Our priority.</p>
-                                    <h3>100% pure <br> Pharmacy.</h3>
-                                    <a href="#" class="theme-btn">Contact Us</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
         </div>
     </div>
     <!--hero-area-end-->
@@ -1169,12 +1142,6 @@
     </div>
     <!--info-area-end-->
 
-
-
-    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>-->
-
-</div>
 
 
 

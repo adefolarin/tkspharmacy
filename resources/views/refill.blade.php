@@ -57,7 +57,7 @@
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8">
                     <div class="blog-form-area">
-                        <form name="frmContact" id="frmContact" action="{{ url('/contact') }}" method="post">
+                        <form name="frmContact" id="frmContact" action="{{ url('/refill') }}" method="post">
 						<input type="hidden" name="frmCont" name="frmCont" value="frmCont" />
                             <h3>Refill Request Form</h3>
                             <label>Name of Patient</label>
@@ -69,11 +69,13 @@
                             <label>RX Number</label>
                             <input type="text" id="refills_rxnum" name="refills_rxnum" value="" required>
                             <label>Mode Of Delivery</label>
-                            <select required class="form-control">
+                            <select required class="form-control" id="refills_pickupdeliv" name="refills_pickupdeliv" >
                                 <option value="">Select Mode of Delivery</option>
                                 <option value="Pick Up">Pick Up</option>
                                 <option value="Delivery">Delivery</option>
                             </select>
+                            <label>Location of Delivery</label>
+                            <input type="text" id="refills_locationdeliv" name="refills_locationdeliv" value="" required>
                             <br></br>
                             <button class="team-1" type="submit">Send</button>
                         </form>
