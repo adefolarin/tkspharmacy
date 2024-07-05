@@ -1037,7 +1037,6 @@ a.header-requestbtn:before {
 	display: block;
 	padding: 7px 20px;
 	color: #fff;
-	text-align: ;
 }
 
 
@@ -1301,7 +1300,6 @@ button:focus-within {
 
 .searchh input {
 	height: 40px;
-    width: ;
     border: 0;
     padding: 20px;  
 }

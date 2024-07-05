@@ -9,7 +9,7 @@
 
             <div>
                 <div class="hero-area position-relative">
-                    <img src="{{ asset('frontendassets/assets/img/homepage2/hero-img.png') }}" alt="" class="hero-img">
+                    <img src="{{ asset('frontendassets/assets/img/homepage2/bannerimg1.png') }}" alt="" class="hero-img">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
@@ -17,7 +17,7 @@
                                     
                                     <p>Your health. Our priority.</p>
                                     <h3>100% pure <br> Pharmacy.</h3>
-                                    <a href="#" class="theme-btn">Contact Us</a>
+                                    <a href="{{ url('contact') }}" class="theme-btn">Contact Us</a>
                                 </div>
                             </div>
                         </div>
@@ -27,7 +27,7 @@
 
             <div>
                 <div class="hero-area position-relative">
-                    <img src="{{ asset('frontendassets/assets/img/homepage2/hany-bg.png') }}" alt="" class="hero-img">
+                    <img src="{{ asset('frontendassets/assets/img/homepage2/bannerimg2.png') }}" alt="" class="hero-img">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
@@ -35,7 +35,43 @@
                                     
                                     <p>Your health. Our priority.</p>
                                     <h3>100% pure <br> Pharmacy.</h3>
-                                    <a href="#" class="theme-btn">Contact Us</a>
+                                    <a href="{{ url('contact') }}" class="theme-btn">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="hero-area position-relative">
+                    <img src="{{ asset('frontendassets/assets/img/homepage2/bannerimg3.png') }}" alt="" class="hero-img">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="hero-containt">
+                                    
+                                    <p>Your health. Our priority.</p>
+                                    <h3>100% pure <br> Pharmacy.</h3>
+                                    <a href="{{ url('contact') }}" class="theme-btn">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="hero-area position-relative">
+                    <img src="{{ asset('frontendassets/assets/img/homepage2/bannerimg4.png') }}" alt="" class="hero-img">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="hero-containt">
+                                    
+                                    <p>Your health. Our priority.</p>
+                                    <h3>100% pure <br> Pharmacy.</h3>
+                                    <a href="{{ url('contact') }}" class="theme-btn">Contact Us</a>
                                 </div>
                             </div>
                         </div>
