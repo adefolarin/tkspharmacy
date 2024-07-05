@@ -110,7 +110,7 @@
             center: true,
             margin: 20,
             autoplay: true,
-            autoplayTimeout: 5000,
+            autoplayTimeout: 3000,
             smartSpeed: 1000,
             responsiveClass: true,
             responsive: {

@@ -1,4 +1,5 @@
-<header class="header1">
+
+    <header class="header1">
         <div class="header-top-bar-area">
             <div class="container">
                 <div class="row align-items-center">
@@ -29,7 +30,7 @@
             <div class="container">
                 <div class="col-xl-3 col-lg-12 col-md-12 col-sm-12 navbar-header">
                     <div class="header-logo">
-                        <a href="index.php"><img src="{{ asset('frontendassets/assets/img/homepage2/tksphlogo.png') }}" alt="logo"></a>
+                         <a href="{{ url('/') }}"><img src="{{ asset('frontendassets/assets/img/homepage2/tksphlogo.png') }}" alt="logo"></a>
                     </div>
                     <button type="button" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false"
                         class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span
@@ -38,21 +39,21 @@
                 </div>
                 <div id="main-navigation" class="col-xl-9 col-lg-12 col-md-12 collapse navbar-collapse "><ul class="nav navbar-nav">
                         <li class="dropdown ">
-                            <a href="index.php" class="active">Home</a>
+                            <a href="{{ url('/') }}" class="active">Home</a>
                         </li>
                         <li class="dropdown">
                             <a href="#">TKS Pharmacy</a><i class="fa fa-chevron-down"></i>
                             <ul class="dropdown-submenu">
-                                <li><a href="about-v.1.html">About us</a></li>
-                                <!--<li><a href="about-v-2.html">About us-2</a></li>
+                                <!--<li><a href="about.php">About us</a></li>
+                                <li><a href="about-v-2.html">About us-2</a></li>
                                 <li class="submenu_child">
                                     <a href="doctors.html">Our Doctor</a><i class="fa fa-chevron-down"></i>
                                     <ul class="dropdown-submenu second_submenu">
                                         <li><a href="doctors-details.html">Doctor's Detail</a></li>
                                     </ul>
                                 </li>-->
-                                <li><a href="#">New Patient</a></li>
-                                <li><a href="#">Refill Prescription</a></li>
+                                <li><a href="{{ url('newpatient') }}">New Patient</a></li>
+                                <li><a href="{{ url('refill') }}">Refill Prescription</a></li>
                                 <li><a href="#">Help</a></li>
                                 
                                 <!--<li><a href="comingsoon.html">Com</a></li>
@@ -64,23 +65,24 @@
                             <a href="#">Our Services</a><i class="fa fa-chevron-down"></i>
                             <ul class="dropdown-submenu">
                                 <li class="submenu_child">
-                                    <a href="PharmaceuticalCommunityServices.php">Pharmaceutical Community Services</a></li>
+                                    <a href="{{ url('pcs') }}">Pharmaceutical Community Services</a></li>
                                    
                                 </li>
                                 <li class="submenu_child">
-                                    <a href="DME.php">Durable Medical Equipment</a>
+                                    <a href="{{ url('dme') }}">Durable Medical Equipment</a>
                                     </li>
                                 <li class="submenu_child">
-                                    <a href="Customcompounding.php">Custom Compounding</a></li>
+                                    <a href="{{ url('cc') }}">Custom Compounding</a></li>
                                    <li class="submenu_child">
-                                    <a href="MedicationTherapyManagement.php"> Medication Therapy Management</a></li>
+                                    <a href="{{ url('mtm') }}"> Medication Therapy Management</a></li>
                                     <li class="submenu_child">
-                                    <a href="PharmacyMedicalConsultation.php"> Pharmacy Medical Consultation</a></li>
+                                    <a href="{{ url('pmc') }}"> Pharmacy Medical Consultation</a></li>
                                     <li class="submenu_child">
-                                    <a href="FreeMedicationDelivery.php">Free Medication Delivery</a></li> 
-                                        <a href="Clinicalservices.php">TKS Clinical Services</a></li>
+                                    <a href="{{ url('fmd') }}">Free Medication Delivery</a></li> 
+                                     <li class="submenu_child">
+                                        <a href="{{ url('tcs') }}">TKS Clinical Services</a></li>
                                     <li class="submenu_child">
-                                    <a href="Long Term Care Services.php"> Long Term Care Services</a></li>
+                                    <a href="{{ url('ltcs') }}"> Long Term Care Services</a></li>
                                     <!--<ul class="dropdown-submenu second_submenu">
                                         <li><a href="services-d
                                         etails.v.3.html"></a></li>
@@ -89,10 +91,10 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="portfolio-2col.html">Portfolio</a><i class="fa fa-chevron-down"></i>
+                            <a href="#">Online Request</a><i class="fa fa-chevron-down"></i>
                             <ul class="dropdown-submenu">
-                                <li><a href="portfolio-2col.html">Portfolio-2col</a></li>
-                                <li><a href="portfolio-3col.html">Portfolio-3col</a></li>
+                                <li><a href="#">TKS PAY</a></li>
+                                
                             </ul>
                         </li>
                         <!--<li class="dropdown">
@@ -105,7 +107,7 @@
                             </ul>
                         </li>
                         <li class="dropdown"><a href="shop-detail.html">Shop</a></li>-->
-                        <li class="dropdown"><a href="contact.html">Contact us</a></li>
+                        <li class="dropdown"><a href="{{ url('contact') }}">Contact us</a></li>
                     </ul>
                 </div>
             </div>

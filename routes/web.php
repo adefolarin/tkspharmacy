@@ -509,29 +509,6 @@ Route::get('/', function () {
 
      
     /***********  Front End ************/
-
-     // Events
-     Route::get('/event/{id?}', [EventController::class,'frontEvent']);
-     Route::get('/event-upcoming', [EventController::class,'upcomingEvent']);
-     //Route::get('/event-detail/{id?}', [EventController::class,'detailEvent']);
-     Route::post('/event/{id?}', [EventRegController::class,'store']);
-     //Route::get('/event-detail/{id?}', [EventController::class,'frontEvent']);
-
-    // Campaigns
-    Route::get('/campaign/{id?}', [CampaignController::class,'frontCampaign']);
-    Route::get('/campaign-upcoming', [CampaignController::class,'upcomingCampaign']);
-    //Route::get('/campaign-detail/{id?}', [CampaignController::class,'detailEvent']);
-    Route::post('/campaign/{id?}', [CampaignRegController::class,'store']);
-    //Route::get('/campaign-detail/{id?}', [CampaignController::class,'frontEvent']);
-
-     // Galleries
-     Route::get('/gallery', [GalleryController::class,'galleryFront']);
-
-     // Resources
-     Route::get('/resource', [ResourceController::class,'resourceFront']);
-
-     Route::get('/report', [ResourceController::class,'reportFront']);
-
  
      Route::get('/contact', [ContactController::class,'contactFront']);
      Route::post('/contact', [ContactController::class,'store']);
@@ -540,49 +517,29 @@ Route::get('/', function () {
      Route::get('/newsletter', [NewsLetterController::class,'newsletterFront']);
      Route::post('/newsletter', [NewsLetterController::class,'store']);
 
-
-     Route::get('/volunteer', [VolunteerController::class,'volunteerFront']);
-     Route::post('/volunteer', [VolunteerController::class,'store']);
- 
-
-     Route::get('/condition', [ConditionController::class,'conditionFront']);
-     Route::post('/condition', [ConditionController::class,'store']);
- 
-
-     Route::get('/community', [CommunityController::class,'communityFront']);
-     Route::post('/community', [CommunityController::class,'store']);
-
      Route::get('/donation', [DonationController::class,'donationFront']);
      Route::post('/donation-paypal', [DonationController::class,'paypal']);
      Route::get('/donation-success', [DonationController::class,'success'])->name('donation-success');
      Route::get('/donation-cancel', [DonationController::class,'cancel'])->name('donation-cancel');
 
-     Route::get('/sponsorcreate', [SponsorController::class,'showCreate']);
-     Route::post('/sponsorcreate', [SponsorController::class,'storeCreate']);
-     Route::get('/sponsorlogin', [SponsorController::class,'showLogin']);
-     Route::post('/sponsorlogin', [SponsorController::class,'fetchLogin']);
 
      Route::get('/about', [AdminController::class,'about']);
-     Route::get('/training', [AdminController::class,'training']);
      Route::get('/refill', [AdminController::class,'refill']);
      Route::get('/newpatient', [AdminController::class,'newpatient']);
+     Route::get('/makeappointment', [AdminController::class,'makeappointment']);
      Route::get('/consultation', [AdminController::class,'consultation']);
      Route::get('/faq', [AdminController::class,'faq']);
-     Route::get('/testimonial', [AdminController::class,'testimonial']);
-     Route::get('/team', [AdminController::class,'team']);
+     Route::get('/policy', [AdminController::class,'policy']);
+     Route::get('/terms', [AdminController::class,'terms']);
+     Route::get('/pcs', [AdminController::class,'pcs']);
+     Route::get('/dme', [AdminController::class,'dme']);
+     Route::get('/cc', [AdminController::class,'cc']);
+     Route::get('/mtm', [AdminController::class,'mtm']);
+     Route::get('/fmd', [AdminController::class,'fmd']);
+     Route::get('/tcs', [AdminController::class,'tcs']);
+     Route::get('/ltcs', [AdminController::class,'ltcs']);
 
-     Route::group(['middleware'=>['sponsor']], function() {
-        Route::get('/sponsor', [SponsorController::class,'sponsorFront']);
-        Route::get('/sponsorresource', [SponsorController::class,'sponsorResource']);
-        Route::get('/sponsorreport', [SponsorController::class,'sponsorReport']);
-        Route::get('/sponsorpayment', [SponsorController::class,'sponsorPayment']);
-        Route::get('/sponsorupdate', [SponsorController::class,'sponsorUpdate']);
-        Route::post('/sponsorupdatepassword', [SponsorController::class,'updatePassword']);
-        Route::post('/sponsorupdateemail', [SponsorController::class,'updateEmail']);
-        Route::post('/sponsorupdatedetails', [SponsorController::class,'updateSponsorDetails']);
-        Route::get('/logout', [SponsorController::class,'logout']);
-   
-     });
+
      
 
      Route::get('/mypage', function() {

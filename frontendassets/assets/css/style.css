@@ -88,7 +88,7 @@ Tags: clinic, corona, coronavirus, corporate, covid 19, dental, dentist, doctor,
 }
 
 .black-bg {
-	background: #072365;
+	background: #1A3F6C;
 }
 
 .white {
@@ -96,7 +96,7 @@ Tags: clinic, corona, coronavirus, corporate, covid 19, dental, dentist, doctor,
 }
 
 .black {
-	color: #072365;
+	color: #1A3F6C;
 }
 
 .alignleft {
@@ -134,7 +134,7 @@ h4,
 h5,
 h6 {
 	margin: 0 0 15px;
-	color: #072365;
+	color: #1A3F6C;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -193,7 +193,7 @@ ul {
 
 .navbar-nav .dropdown a {
 	font-size: 16px;
-	color: #072264;
+	color: #1A3F6C;
 	font-weight: 600;
 	transition: 0.3s;
 }
@@ -234,7 +234,7 @@ ul {
 .acctivee::before {
 	position: absolute;
 	content: "";
-	background: #FFAF2A;
+	background: #53B84E;
 	height: 100%;
 	width: 82%;
 	z-index: -1;
@@ -258,7 +258,7 @@ ul {
 
 a.header-requestbtn {
 	font-size: 14px;
-	color: #072365;
+	color: #1A3F6C;
 	background: #ff5797;
 	display: block;
 	float: right;
@@ -311,7 +311,7 @@ a.header-requestbtn:before {
 #main-navigation-wrapper .nav>li>a {
 	text-transform: uppercase;
 	font-size: 16px;
-	color: #072264;
+	color: #1A3F6C;
 	font-weight: 600;
 	transition: 0.3s;
 }
@@ -350,7 +350,7 @@ a.header-requestbtn:before {
 	visibility: hidden;
 	-webkit-transition: all .4s ease;
 	transition: all .4s ease;
-	background: #072264;
+	background: #1A3F6C;
 	-webkit-transform: translate3d(-20px, 0, 0);
 	transform: translate3d(-20px, 0, 0);
 	-webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3);
@@ -573,7 +573,7 @@ a.header-requestbtn:before {
 	padding: 0 11px;
 	border: 1px solid #d9d9d9;
 	border-right: none;
-	color: #072365;
+	color: #1A3F6C;
 	margin: 14px 0;
 	font-size: 14px;
 }
@@ -602,7 +602,7 @@ a.header-requestbtn:before {
 
 .hero-about-text h2 {
 	font-size: 60px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin: 0;
 	margin-bottom: 10px;
@@ -616,12 +616,12 @@ a.header-requestbtn:before {
 }
 
 .hero-about-text h4 span {
-	color: #072365;
+	color: #1A3F6C;
 }
 
 .exper-title h2 {
 	font-size: 40px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
@@ -642,7 +642,7 @@ a.header-requestbtn:before {
 
 .exper-info h3 {
 	font-size: 24px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 	margin: ;
 	margin-bottom: 8px;
@@ -666,7 +666,7 @@ a.header-requestbtn:before {
 
 .service-title h2 {
 	font-size: 40px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 20px;
 	line-height: 48px;
@@ -798,7 +798,7 @@ a.header-requestbtn:before {
 	height: 46px;
 	line-height: 46px;
 	text-align: center;
-	background: #ffaf2a;
+	background: #53B84E;
 	color: #fff;
 	float: left;
 }
@@ -846,7 +846,7 @@ a.header-requestbtn:before {
 }
 
 .footer-bottom {
-	background: #072365;
+	background: #1A3F6C;
 	padding: 30px 0;
 	float: left;
 	display: block;
@@ -971,7 +971,7 @@ a.header-requestbtn:before {
 	position: absolute;
 	right: 20px;
 	height: 32px;
-	color: #072365;
+	color: #1A3F6C;
 	text-align: center;
 	line-height: 32px;
 	border-radius: 50%;
@@ -1072,7 +1072,7 @@ a.header-requestbtn:before {
 
 .dropdown-item {
 	padding: 8px !important;
-	color: #072365 !important;
+	color: #1A3F6C !important;
 	font-size: 16px;
 }
 
@@ -1134,7 +1134,7 @@ button:focus-within {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: #072365;
+	background: #1A3F6C;
 	z-index: -1;
 	border-radius: 50px;
 	transition: .3s;
@@ -1238,7 +1238,7 @@ button:focus-within {
 }
 
 .go-top:hover {
-	background: #FFAF2A;
+	background: #53B84E;
 }
 
 .go-top:hover i {
@@ -1251,7 +1251,7 @@ button:focus-within {
 
 .header-top-bar-area {
 	height: 50px;
-	background: #072264;
+	background: #1A3F6C;
 	display: flex;
 	align-items: center;
 }
@@ -1371,7 +1371,7 @@ button:focus-within {
 
 .hero-containt h3 {
 	font-size: 72px;
-	color: #072264;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 30px;
 }
@@ -1379,7 +1379,7 @@ button:focus-within {
 .theme-btn {
 	font-size: 16px;
 	color: #fff !important;
-	background: #FFAF2A;
+	background: #53B84E;
 	padding: 12px 45px;
 	display: inline-block;
 	border-radius: 50px;
@@ -1418,7 +1418,7 @@ button:focus-within {
 
 .single-product p {
 	font-size: 24px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	line-height: 28px;
 	margin-bottom: 31px;
@@ -1471,7 +1471,7 @@ button:focus-within {
 
 .quality-text h3 {
 	font-size: 40px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 }
 
@@ -1510,11 +1510,11 @@ button:focus-within {
 }
 
 .single-quality.qb2 {
-	background: #FFAF2A;
+	background: #53B84E;
 }
 
 .single-quality.qb3 {
-	background: #072365;
+	background: #1A3F6C;
 }
 
 .qiality-pp {
@@ -1576,7 +1576,7 @@ button:focus-within {
 
 .section-title h3 {
 	font-size: 40px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin: 0;
 }
@@ -1596,21 +1596,21 @@ button:focus-within {
 
 .nav-link {
 	font-size: 18px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
 	background: transparent;
-	color: #072365;
+	color: #1A3F6C;
 	position: relative;
 }
 
 .nav-pills .nav-link.active:before {
 	position: absolute;
 	content: "";
-	background: #FFAF2A;
+	background: #53B84E;
 	height: 3px;
 	width: 100%;
 	top: ;
@@ -1633,7 +1633,7 @@ button:focus-within {
 .single-featured span {
 	position: absolute;
 	top: 10px;
-	background: #FFAF2A;
+	background: #53B84E;
 	left: 10px;
 	width: 65px;
 	height: 30px;
@@ -1673,7 +1673,7 @@ button:focus-within {
 
 .fecure-containt h3 {
 	font-size: 18px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 	margin-bottom: 15px;
 }
@@ -1732,7 +1732,7 @@ button:focus-within {
 }
 
 .love:hover {
-	color: #FFAF2A;
+	color: #53B84E;
 }
 
 .love {
@@ -1760,14 +1760,14 @@ button:focus-within {
 
 .baner-containt h4 {
 	font-size: 30px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 	margin-bottom: 30px;
 }
 
 .baner-containt a {
 	font-size: 24px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 	margin-bottom: 27px;
 	display: inline-block;
@@ -1777,7 +1777,7 @@ button:focus-within {
 	line-height: 50px;
 	position: relative;
 	z-index: 99;
-	background: #FFAF2A;
+	background: #53B84E;
 	transition: 0.5s;
 }
 
@@ -1792,7 +1792,7 @@ button:focus-within {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: #072365;
+	background: #1A3F6C;
 	z-index: -1;
 	border-radius: 50px;
 	transition: 0.3s;
@@ -1809,7 +1809,7 @@ button:focus-within {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: #072365;
+	background: #1A3F6C;
 	z-index: -1;
 	border-radius: 50px;
 	transition: .3s;
@@ -1817,7 +1817,7 @@ button:focus-within {
 
 .baner-containt h3 {
 	font-size: 30px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin: 0;
 	line-height: 48px;
@@ -1825,7 +1825,7 @@ button:focus-within {
 
 .baner-containt h3 span {
 	font-size: 60px;
-	color: #072365;
+	color: #1A3F6C;
 }
 
 .single-featured img {
@@ -1891,11 +1891,11 @@ button:focus-within {
 }
 
 .single-info.cl2 {
-	background: #FFAF2A;
+	background: #53B84E;
 }
 
 .single-info.cl3 {
-	background: #072365;
+	background: #1A3F6C;
 }
 
 .footer-loc a {
@@ -1999,7 +1999,7 @@ button:focus-within {
 	position: absolute;
 	right: 20px;
 	height: 32px;
-	color: #072365;
+	color: #1A3F6C;
 	text-align: center;
 	line-height: 32px;
 	border-radius: 50%;
@@ -2094,7 +2094,7 @@ button:focus-within {
 
 .dropdown-item {
 	padding: 8px !important;
-	color: #072365 !important;
+	color: #1A3F6C !important;
 	font-size: 16px;
 }
 
@@ -2158,7 +2158,7 @@ button:focus-within {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: #072365;
+	background: #1A3F6C;
 	z-index: -1;
 	border-radius: 50px;
 	transition: .3s;
@@ -2269,7 +2269,7 @@ button:focus-within {
 }
 
 .go-top:hover {
-	background: #FFAF2A;
+	background: #53B84E;
 }
 
 .go-top:hover i {
@@ -2963,7 +2963,7 @@ button:focus-within {
 		display: none;
 		top: auto;
 		float: none;
-		background: #ffaf2a;
+		background: #53B84E;
 		box-shadow: 0 0 0 #fff;
 	}
 
@@ -3080,7 +3080,7 @@ button:focus-within {
 	}
 
 	.navbar-default .navbar-toggle .icon-bar {
-		background: #072264;
+		background: #1A3F6C;
 		width: 25px;
 		height: 3px;
 		display: block;
@@ -3115,7 +3115,7 @@ button:focus-within {
 	#main-navigation-wrapper .navbar-collapse {
 		border-color: #232333;
 		border-radius: 0px;
-		background: #072264;
+		background: #1A3F6C;
 		-webkit-box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.25);
 		-moz-box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.25);
 		box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.25);
@@ -3150,7 +3150,7 @@ button:focus-within {
 	}
 
 	.headerButton a {
-		background: #FFAF2A;
+		background: #53B84E;
 	}
 
 	.acctivee {
@@ -3192,7 +3192,7 @@ button:focus-within {
 		display: none;
 		top: auto;
 		float: none;
-		background: #ffaf2a;
+		background: #53B84E;
 		box-shadow: 0 0 0 #fff;
 	}
 
@@ -3457,7 +3457,7 @@ form#search button.sbtn {
 
 .hero-text h1 {
 	font-size: 60px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: bold;
 	margin-bottom: 0px;
 	-webkit-animation-duration: 1.5s;
@@ -3472,7 +3472,7 @@ form#search button.sbtn {
 
 .hero-text p {
 	font-size: 18px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 	font-style: italic;
 	margin: 0;
@@ -3514,12 +3514,12 @@ form#search button.sbtn {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
 	color: #fff;
-	background-color: #FFAF2A !important;
+	background-color: #53B84E !important;
 	border-radius: 0;
 }
 
 .nav-pills .nav-link {
-	background: #072365;
+	background: #1A3F6C;
 	border-radius: 0 !important;
 	margin: 0 3px;
 	font-size: 18px;
@@ -3625,7 +3625,7 @@ form#search button.sbtn {
 }
 
 .black-bg {
-	background: #072365;
+	background: #1A3F6C;
 }
 
 .white {
@@ -3633,7 +3633,7 @@ form#search button.sbtn {
 }
 
 .black {
-	color: #072365;
+	color: #1A3F6C;
 }
 
 .align-center {
@@ -3947,7 +3947,7 @@ button.find-btn-submit {
 	content: "";
 	height: 1px;
 	width: 10px;
-	background: #072365;
+	background: #1A3F6C;
 	left: -10px;
 	top: 50%;
 	transform: translateY(-50%);
@@ -3976,7 +3976,7 @@ ul li span a::before,
 	content: "";
 	height: 1px;
 	width: 10px;
-	background: #072365;
+	background: #1A3F6C;
 	left: 0;
 	top: 50%;
 	transform: translateY(-50%);
@@ -4009,7 +4009,7 @@ ul li span a::before,
 	float: left;
 	padding: 0 30px;
 	margin: 0;
-	border-right: 1px dashed #072365;
+	border-right: 1px dashed #1A3F6C;
 }
 
 .contact-location .left-location i {
@@ -4031,7 +4031,7 @@ ul li span a::before,
 .contact-location .left-location h4 {
 	font-size: 15px;
 	font-weight: 500;
-	color: #072365;
+	color: #1A3F6C;
 	margin: 0;
 	padding-top: 3px;
 	letter-spacing: .3px;
@@ -4048,7 +4048,7 @@ ul li span a::before,
 
 a.header-requestbtn {
 	font-size: 14px;
-	color: #072365;
+	color: #1A3F6C;
 	background: #17b3ab;
 	display: block;
 	float: right;
@@ -4237,7 +4237,7 @@ a.header-requestbtn:before {
 	padding: 0 11px;
 	border: 1px solid #d9d9d9;
 	border-right: none;
-	color: #072365;
+	color: #1A3F6C;
 	margin: 14px 0;
 	font-size: 14px;
 }
@@ -4293,7 +4293,7 @@ a.header-requestbtn:before {
 .modal-body h3 {
 	margin-bottom: 20px;
 	font-weight: 400;
-	color: #072365;
+	color: #1A3F6C;
 }
 
 .modal-body .search-form {
@@ -4342,7 +4342,7 @@ a.header-requestbtn:before {
 
 .hero-about-text h2 {
 	font-size: 60px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin: 0;
 	margin-bottom: 10px;
@@ -4357,7 +4357,7 @@ a.header-requestbtn:before {
 }
 
 .hero-about-text h4 span {
-	color: #072365;
+	color: #1A3F6C;
 }
 
 .hero-about-area {
@@ -4400,7 +4400,7 @@ a.header-requestbtn:before {
 
 .exper-title h2 {
 	font-size: 40px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
@@ -4421,7 +4421,7 @@ a.header-requestbtn:before {
 
 .exper-info h3 {
 	font-size: 24px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 	margin: ;
 	margin-bottom: 8px;
@@ -4463,7 +4463,7 @@ a.header-requestbtn:before {
 
 .service-title h2 {
 	font-size: 40px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 20px;
 	line-height: 48px;
@@ -4488,7 +4488,7 @@ a.header-requestbtn:before {
 
 .care-text h4 {
 	font-size: 22px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 	margin: 0;
 	margin-bottom: 4px;
@@ -4496,7 +4496,7 @@ a.header-requestbtn:before {
 
 .care-text h4 a {
 	font-size: 22px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 	margin: 0;
 	margin-bottom: 4px;
@@ -4517,7 +4517,7 @@ a.header-requestbtn:before {
 }
 
 .exper-button a {
-	background: #ffaf2a;
+	background: #53B84E;
 	font-weight: 600;
 	font-size: 16px;
 	color: #fff;
@@ -4577,7 +4577,7 @@ a.header-requestbtn:before {
 
 .team-content h2 {
 	font-size: 40px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin: 0;
 }
@@ -4595,7 +4595,7 @@ a.header-requestbtn:before {
 
 .team-text p {
 	font-size: 16px;
-	color: #072365;
+	color: #1A3F6C;
 	line-height: 24px;
 	margin: 0;
 	font-weight: 400;
@@ -4611,7 +4611,7 @@ a.header-requestbtn:before {
 
 .doctor-team-content h3 {
 	font-size: 24px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 10px;
 }
@@ -4686,7 +4686,7 @@ a.header-requestbtn:before {
 }
 
 .call-box {
-	background: #ffaf2a;
+	background: #53B84E;
 	font-size: 24px;
 	font-weight: 600;
 	color: #fff;
@@ -4738,14 +4738,14 @@ a.header-requestbtn:before {
 
 .fea-title h2 {
 	font-size: 40px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
 
 .fea-title p {
 	font-size: 16px;
-	color: #072365;
+	color: #1A3F6C;
 	margin: 0;
 	line-height: 24px;
 }
@@ -4760,13 +4760,13 @@ a.header-requestbtn:before {
 
 .features-text h3 {
 	font-size: 24px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 }
 
 .features-text p {
 	font-size: 16px;
-	color: #072365;
+	color: #1A3F6C;
 	margin: 0;
 }
 
@@ -4783,7 +4783,7 @@ a.header-requestbtn:before {
   */
 .advance-title h2 {
 	font-size: 40px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 45px;
 }
@@ -4837,7 +4837,7 @@ a.header-requestbtn:before {
 }
 
 .special-inner {
-	color: #072365;
+	color: #1A3F6C;
 	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 15px;
@@ -4877,7 +4877,7 @@ a.header-requestbtn:before {
 
 .special-content h3 {
 	font-size: 40px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
@@ -4920,10 +4920,10 @@ a.header-requestbtn:before {
 }
 
 .special-button a {
-	background: #ffaf2a;
+	background: #53B84E;
 	font-weight: 600;
 	font-size: 16px;
-	color: #072365;
+	color: #1A3F6C;
 	padding: 18px 30px;
 	line-height: 1;
 	display: inline-block;
@@ -5069,7 +5069,7 @@ a.header-requestbtn:before {
 	text-align: left;
 	font-weight: 700;
 	padding-bottom: 30px;
-	color: #072365;
+	color: #1A3F6C;
 	font-size: 32px;
 	line-height: 50px;
 	margin: 0;
@@ -5088,7 +5088,7 @@ a.header-requestbtn:before {
 	text-align: left;
 	font-weight: 700;
 	padding-bottom: 30px;
-	color: #072365;
+	color: #1A3F6C;
 	font-size: 32px;
 	line-height: 50px;
 	margin: 0;
@@ -5127,7 +5127,7 @@ textarea {
 
 .form-title h3 {
 	font-size: 30px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 }
 
@@ -5193,7 +5193,7 @@ textarea {
 
 .consul-text h2 {
 	font-size: 48px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 800;
 	margin-bottom: 15px;
 }
@@ -5349,7 +5349,7 @@ textarea {
 }
 
 .footer-bottom {
-	background: #072365;
+	background: #1A3F6C;
 	padding: 30px 0;
 	float: left;
 	display: block;
@@ -5457,7 +5457,7 @@ textarea {
 
 .comment-title h3 {
 	font-size: 24px;
-	color: #072365;
+	color: #1A3F6C;
 	font-size: ;
 	font-weight: 600;
 	margin: 0;
@@ -5512,7 +5512,7 @@ textarea {
 
 .commnet-text-area a {
 	background: transparent;
-	color: #FFAF2A;
+	color: #53B84E;
 	font-size: 16px;
 	font-weight: 400;
 	margin: 0;
@@ -5540,7 +5540,7 @@ textarea {
 
 .blog-form-area h3 {
 	font-size: 24px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 	margin-bottom: 25px;
 }
@@ -5601,7 +5601,7 @@ textarea {
 .sec-title h3 {
 	font-size: 24px;
 	font-weight: 600;
-	color: #072365;
+	color: #1A3F6C;
 	margin: 0;
 }
 
@@ -5677,7 +5677,7 @@ textarea {
 	border: 0;
 	color: #989a9c;
 	font-size: 14px;
-	background: #072365;
+	background: #1A3F6C;
 }
 
 /*
@@ -5705,14 +5705,14 @@ textarea {
 
 .opps-containt h4 {
 	font-size: 36px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin: ;
 }
 
 .opps-containt p {
 	font-size: 18px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin: 0;
 }
@@ -5775,7 +5775,7 @@ textarea {
 
 .gied-ttx h3 {
 	font-size: 22px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 }
 
@@ -5800,7 +5800,7 @@ textarea {
 }
 
 .blog-text.ttx a {
-	background: #ffaf2a;
+	background: #53B84E;
 	text-align: center;
 	font-size: 18px;
 	color: #fff;
@@ -5832,7 +5832,7 @@ textarea {
 
 .blog-list-i ul li a {
 	font-size: 16px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	height: 36px;
 	width: 36px;
@@ -5860,7 +5860,7 @@ textarea {
 .single-contact p a,
 .single-contact p {
 	font-size: 20px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 400;
 	margin: 0;
 }
@@ -5870,7 +5870,7 @@ textarea {
 }
 
 .contect-location i {
-	color: #FFAF2A;
+	color: #53B84E;
 	font-size: 60px;
 }
 
@@ -5914,7 +5914,7 @@ textarea {
 
 .doctor-containt h2 {
 	font-size: 40px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
@@ -5954,7 +5954,7 @@ textarea {
 	content: "";
 	height: 1px;
 	width: 10px;
-	background: #072365;
+	background: #1A3F6C;
 	left: 0;
 	top: 50%;
 	transform: translateY(-50%);
@@ -5962,7 +5962,7 @@ textarea {
 
 .ddoct h4 {
 	font-size: 18px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
@@ -6004,7 +6004,7 @@ textarea {
 
 .doctor-into button {
 	font-size: 16px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 	background: #fff;
 	border: 0;
@@ -6014,14 +6014,14 @@ textarea {
 
 .about-doctors h3 {
 	font-size: 24px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 10px;
 }
 
 .about-doctors p {
 	font-size: 16px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 400;
 	line-height: 23px;
 	margin-bottom: 15px;
@@ -6052,7 +6052,7 @@ textarea {
 }
 
 .nav-link {
-	background: #072365;
+	background: #1A3F6C;
 	border-radius: 0 !important;
 	margin: 0 3px;
 	font-size: 18px;
@@ -6130,7 +6130,7 @@ textarea {
 
 .ti-text h3 {
 	font-size: 18px;
-	color: #072365;
+	color: #1A3F6C;
 	margin: 0;
 	font-weight: 700;
 	padding: 7px 0;
@@ -6180,7 +6180,7 @@ textarea {
 	margin-bottom: 10px;
 	display: flex;
 	align-items: center;
-	border-left: 2px solid#072365;
+	border-left: 2px solid#1A3F6C;
 	transition: .3s;
 	cursor: pointer;
 
@@ -6196,12 +6196,12 @@ textarea {
 	border-left: 1px solid #E1E5ED;
 	height: 50px;
 	line-height: 50px;
-	color: #072365;
+	color: #1A3F6C;
 	transition: .3s;
 }
 
 .single-list h3 {
-	color: #072365;
+	color: #1A3F6C;
 	font-size: 18px;
 	margin: 0;
 	padding-left: 15px;
@@ -6209,7 +6209,7 @@ textarea {
 }
 
 .single-list:hover {
-	background: #072365;
+	background: #1A3F6C;
 }
 
 .single-list:hover a {
@@ -6228,17 +6228,17 @@ textarea {
 
 .contact-time h3 {
 	font-size: 24px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 }
 
 .single-contact-time p a {
-	color: #072365;
+	color: #1A3F6C;
 }
 
 .single-contact-time p {
 	font-size: 18px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 	padding-left: 50px;
 	position: relative;
@@ -6273,7 +6273,7 @@ textarea {
 
 .eye-area h3 {
 	font-size: 40px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 22px;
 }
@@ -6301,7 +6301,7 @@ textarea {
 
 .eye-list-lf h3 {
 	font-size: 24px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin: ;
 	margin-bottom: 25px;
@@ -6353,7 +6353,7 @@ textarea {
 
 .single-pruse h3 {
 	font-size: 24px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 	border-bottom: 1px solid #ECECEC;
 	margin: ;
@@ -6372,7 +6372,7 @@ textarea {
 
 .single-pruse ul li a {
 	font-size: 16px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 500;
 	position: relative;
 	background: transparent !important;
@@ -6421,16 +6421,16 @@ textarea {
 }
 
 .pps-lidtt.midd .imh {
-	background: #ffaf2a;
+	background: #53B84E;
 	box-shadow: 0 0 10px #02b9b152;
 }
 
 .pps-lidtt.midd h3 span {
-	color: #ffaf2a;
+	color: #53B84E;
 }
 
 .pps-lidtt.midd a {
-	background: #ffaf2a;
+	background: #53B84E;
 }
 
 .llff {
@@ -6505,7 +6505,7 @@ textarea {
 
 .form-teart h3 {
 	font-size: 30px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 30px;
 	padding-bottom: 20px;
@@ -6600,7 +6600,7 @@ span.dropdown-iconform i {
 
 .zoom-containt-top h3 {
 	font-size: 24px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 	margin-bottom: 10px;
 }
@@ -6704,7 +6704,7 @@ span.dropdown-iconform i {
 
 .pricing-title h3 {
 	font-size: 40px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 25px;
 }
@@ -6722,7 +6722,7 @@ span.dropdown-iconform i {
 
 .title h2 {
 	font-size: 40px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
@@ -6759,7 +6759,7 @@ span.dropdown-iconform i {
 
 .med-service-title h2 {
 	font-size: 40px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
@@ -6778,7 +6778,7 @@ span.dropdown-iconform i {
 
 .medi-content h2 {
 	font-size: 40px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 30px;
 }
@@ -6797,7 +6797,7 @@ span.dropdown-iconform i {
 
 .medi-service h4 {
 	font-size: 22px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 	margin-bottom: 15px;
 }
@@ -6919,7 +6919,7 @@ span.dropdown-iconform i {
 
 .card-text h3 {
 	font-size: 24px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 30px;
 	position: relative;
@@ -6931,7 +6931,7 @@ span.dropdown-iconform i {
 
 .says-title h2 {
 	font-size: 40px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 30px;
 }
@@ -6956,7 +6956,7 @@ span.dropdown-iconform i {
 
 .slider-title h2 {
 	font-size: 40px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 15px;
 }
@@ -7003,7 +7003,7 @@ span.dropdown-iconform i {
 
 .slider-inner-text h4 {
 	font-size: 18px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin: 0;
 }
@@ -7113,7 +7113,7 @@ span.dropdown-iconform i {
 
 .zoom-containt-bottom a, .fecure-containt a, .fetured-btn a {
     color: #fff;
-    background: #FFAF2A;
+    background: #53B84E;
     padding: 8px 30px;
     border-radius: 50px;
     display: inline-block;
@@ -7128,7 +7128,7 @@ span.dropdown-iconform i {
 
 .descriptionp h3 {
 	font-size: 24px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 	margin-bottom: 10px;
 	margin-top: 15px;
@@ -7148,7 +7148,7 @@ span.dropdown-iconform i {
 
 .add h3 {
 	font-size: 24px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 	margin: ;
 	margin-bottom: 10px;
@@ -7182,7 +7182,7 @@ span.dropdown-iconform i {
 
 .rev-title h3 {
 	font-size: 24px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 	margin-bottom: 10px;
 }
@@ -7503,7 +7503,7 @@ body.is-cursor-active .cursor.is-mouse-down .cursor__cursor {
 .team-1:before {
 	position: absolute;
 	content: "";
-	background: #072365;
+	background: #1A3F6C;
 	height: 100%;
 	width: 100%;
 	left: 0;
@@ -7594,7 +7594,7 @@ textarea {
 
 .d-social h4 {
 	font-size: 18px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
@@ -7645,7 +7645,7 @@ textarea {
 
 .section-title h3 {
 	font-size: 36px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin: 0;
 }
@@ -7656,7 +7656,7 @@ textarea {
 
 .nav-link {
 	font-size: 16px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 }
 
@@ -7719,7 +7719,7 @@ textarea {
 
 .fecure-containt h3 {
 	font-size: 18px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 	margin-bottom: 15px;
 }
@@ -7788,7 +7788,7 @@ textarea {
 .theme-btn {
 	font-size: 16px;
 	color: #fff !important;
-	background: #FFAF2A;
+	background: #53B84E;
 	padding: 12px 45px;
 	display: inline-block;
 	border-radius: 50px;
@@ -7833,7 +7833,7 @@ textarea {
 .port-img::before {
 	position: absolute;
 	content: "";
-	background: linear-gradient(transparent, #072365);
+	background: linear-gradient(transparent, #1A3F6C);
 	height: 100%;
 	width: 100%;
 	z-index: 9;
@@ -7956,7 +7956,7 @@ textarea {
 }
 
 .faq-content h4 {
-	color: #072365;
+	color: #1A3F6C;
 	font-size: 16px;
 	position: relative;
 }
@@ -8014,7 +8014,7 @@ textarea {
 }
 
 .btn.btn-link.btn-block.text-left.collapsed {
-	color: #072365;
+	color: #1A3F6C;
 	transition: 0.3s;
 }
 
@@ -8043,7 +8043,7 @@ textarea {
 
 .news-blog-title h2 {
 	font-size: 40px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
@@ -8119,7 +8119,7 @@ textarea:focus {
 	position: absolute;
 	right: 20px;
 	height: 32px;
-	color: #072365;
+	color: #1A3F6C;
 	text-align: center;
 	line-height: 32px;
 	border-radius: 50%;
@@ -8145,7 +8145,7 @@ textarea:focus {
 	position: fixed;
 	height: 100%;
 	width: 100%;
-	background: #072365;
+	background: #1A3F6C;
 	z-index: -1;
 	opacity: 0;
 	-webkit-transition: .3s;
@@ -8231,7 +8231,7 @@ textarea:focus {
 
 .dropdown-item {
 	padding: 8px !important;
-	color: #072365 !important;
+	color: #1A3F6C !important;
 	font-size: 16px;
 }
 
@@ -8297,7 +8297,7 @@ button:focus-within {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: #072365;
+	background: #1A3F6C;
 	z-index: -1;
 	border-radius: 50px;
 	transition: .3s;
@@ -8406,7 +8406,7 @@ button:focus-within {
 
 .comingsoon-page h2 {
 	font-size: 60px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 700;
 	margin: 60px 0;
 }
@@ -8426,7 +8426,7 @@ ul.coming-list li {
 	border: 3px solid #088982;
 	text-align: center;
 	text-transform: uppercase;
-	color: #072365;
+	color: #1A3F6C;
 	padding: 37px 0px;
 	margin: 10px 20px;
 	background: #02b9b1;
@@ -8482,7 +8482,7 @@ ul.coming-list li .day {
 	overflow: hidden;
 	max-height: 700px;
 	position: relative;
-	background: #072365000;
+	background: #1A3F6C000;
 	width: 100%;
 }
 
@@ -8582,7 +8582,7 @@ ul.coming-list li .day {
 	padding: 0;
 	width: 16px;
 	height: 16px;
-	border: 2px solid #072365;
+	border: 2px solid #1A3F6C;
 	overflow: hidden;
 	position: relative;
 	border-radius: 50%;
@@ -8633,7 +8633,7 @@ ul.coming-list li .day {
 
 .slide-text h1 {
 	padding: 0;
-	color: #072365;
+	color: #1A3F6C;
 	font-size: 60px;
 	font-style: normal;
 	line-height: 75px;
@@ -8648,7 +8648,7 @@ ul.coming-list li .day {
 	font-size: 18px;
 	margin: 0;
 	font-weight: 600;
-	color: #072365;
+	color: #1A3F6C;
 	display: block;
 	padding: 0 0 43px;
 	font-style: italic;
@@ -8702,7 +8702,7 @@ ul.coming-list li .day {
 	display: inline-flex;
 	width: 100%;
 	padding: 5px 40px;
-	border-right: 1px dashed #072365;
+	border-right: 1px dashed #1A3F6C;
 }
 
 .intro-box i {
@@ -8748,7 +8748,7 @@ ul.coming-list li .day {
 	text-align: center;
 	font-weight: 800;
 	padding-bottom: 65px;
-	color: #072365;
+	color: #1A3F6C;
 	font-size: 40px;
 	margin: 0;
 }
@@ -8922,7 +8922,7 @@ ul.coming-list li .day {
 	text-align: center;
 	font-weight: 800;
 	padding-bottom: 10px;
-	color: #072365;
+	color: #1A3F6C;
 	font-size: 40px;
 }
 
@@ -8999,7 +8999,7 @@ ul.coming-list li .day {
 .services-box .per-box h3 {
 	font-size: 18px;
 	font-weight: 600;
-	color: #072365;
+	color: #1A3F6C;
 	text-align: center;
 	padding-top: 20px;
 	margin: auto;
@@ -9094,7 +9094,7 @@ ul.coming-list li .day {
 	text-align: left;
 	font-weight: 800;
 	padding-bottom: 25px;
-	color: #072365;
+	color: #1A3F6C;
 	font-size: 40px;
 	margin: 0;
 	padding-top: 10px;
@@ -9143,7 +9143,7 @@ ul.coming-list li .day {
 
 .skillbar h3 {
 	font-size: 16px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 	padding-bottom: 15px;
 	margin: 0;
@@ -9177,7 +9177,7 @@ ul.coming-list li .day {
 	font-size: 16px;
 	height: 35px;
 	line-height: 35px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 }
 
@@ -9204,7 +9204,7 @@ section.docor-area-team-wrap {
 	text-align: center;
 	font-weight: 800;
 	padding-bottom: 0;
-	color: #072365;
+	color: #1A3F6C;
 	font-size: 36px;
 	margin-bottom: 0;
 }
@@ -9239,7 +9239,7 @@ section.docor-area-team-wrap {
 	text-align: center;
 	left: 0;
 	right: 0;
-	background: linear-gradient(transparent, #072365);
+	background: linear-gradient(transparent, #1A3F6C);
 	top: 100%;
 	transition: all 0.5s;
 }
@@ -9276,7 +9276,7 @@ section.docor-area-team-wrap {
 
 .doc-box h2 {
 	font-size: 24px;
-	color: #072365;
+	color: #1A3F6C;
 	font-weight: 600;
 	padding-bottom: 15px;
 	text-align: center;
@@ -9375,7 +9375,7 @@ section.docor-area-team-wrap {
 	text-align: left;
 	font-weight: 700;
 	padding-bottom: 30px;
-	color: #072365;
+	color: #1A3F6C;
 	font-size: 32px;
 	line-height: 50px;
 	margin: 0;
@@ -9385,7 +9385,7 @@ section.docor-area-team-wrap {
 	height: 60px;
 	margin-bottom: 10px;
 	font-size: 17px;
-	color: #072365;
+	color: #1A3F6C;
 	border: 0;
 	border-bottom: 1px solid #c9c9c9;
 	border-radius: 0;
@@ -9399,7 +9399,7 @@ section.docor-area-team-wrap {
 	height: 60px;
 	margin-bottom: 10px;
 	font-size: 17px;
-	color: #072365;
+	color: #1A3F6C;
 	border: 0;
 	border-bottom: 1px solid #c9c9c9;
 	border-radius: 0;
@@ -9594,7 +9594,7 @@ section.docor-area-team-wrap {
 	text-align: center;
 	font-weight: 800;
 	padding-bottom: 25px;
-	color: #072365;
+	color: #1A3F6C;
 	font-size: 40px;
 	margin: 0;
 }
@@ -9666,7 +9666,7 @@ section.docor-area-team-wrap {
 }
 
 .news-box .news-text a h2 {
-	color: #072365;
+	color: #1A3F6C;
 	font-size: 22px;
 	font-weight: 700;
 	text-align: left;
@@ -9864,7 +9864,7 @@ section.docor-area-team-wrap {
 		display: none;
 		top: auto;
 		float: none;
-		background: #ffaf2a;
+		background: #53B84E;
 		box-shadow: 0 0 0 #fff;
 	}
 
@@ -11077,7 +11077,7 @@ section.docor-area-team-wrap {
 
 	.doctor-containt h3 {
 		font-size: 30px;
-		color: #072365;
+		color: #1A3F6C;
 		font-weight: 700;
 	}
 
@@ -12743,7 +12743,7 @@ button.btn.btn-link.btn-block:focus {
 
 .home .nav-pills .nav-link {
 	background: none !important;
-	color: #072264;
+	color: #1A3F6C;
 	border: 0 !important;
 }
 
@@ -12754,7 +12754,7 @@ button.btn.btn-link.btn-block:focus {
 .home .nav-link:hover,
 .home .nav-pills .nav-link.active,
 .home .nav-pills .show>.nav-link {
-	color: #072264;
+	color: #1A3F6C;
 	background: none !important;
 	display: inline-block;
 }

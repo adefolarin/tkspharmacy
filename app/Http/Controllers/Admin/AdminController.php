@@ -162,39 +162,78 @@ class AdminController extends Controller
         return view('about');
     }
 
-    public function faq()
+    public function newpatient()
     {    
-        return view('faq');
-    }
-
-    public function training()
-    {    
-        return view('training');
+        return view('newpatient');
     }
 
     public function refill()
     {    
         return view('refill');
+    
     }
+
+    public function makeappointment()
+    {    
+        return view('makeappointment');
+    }
+
+    public function faq()
+    {    
+        return view('faq');
+    }
+
     public function consultation()
     {    
         return view('consultation');
     }
 
-    public function team()
+    public function policy()
     {    
-        return view('team');
+        return view('policy');
     }
 
-    public function testimonial()
+    public function terms()
     {    
-        return view('testimonial');
+        return view('terms');
     }
 
-    public function newpatient()
+    public function pcs()
     {    
-        return view('newpatient');
+        return view('pcs');
     }
+
+    public function dme()
+    {    
+        return view('dme');
+    }
+
+
+    public function cc()
+    {    
+        return view('cc');
+    }
+
+    public function mtm()
+    {    
+        return view('mtm');
+    }
+
+    public function fmd()
+    {    
+        return view('fmd');
+    }
+
+    public function tcs()
+    {    
+        return view('tcs');
+    }
+
+    public function ltcs()
+    {    
+        return view('ltcs');
+    }
+
 
   
 
