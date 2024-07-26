@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="TSRX">
   <!-- Fav Icon -->
-  <link rel="icon" href="{{ asset('frontendassets/assets/img/favicon.png') }}" type="image/x-icon">
+  <link rel="icon" href="{{ asset('frontendassets/assets/img/homepage2/tksphlogo.png') }}" type="image/x-icon">
 
   <title>TSRX - Pharmacy||Clinical and Wellness</title>
 

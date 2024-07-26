@@ -52,6 +52,7 @@ use App\Http\Controllers\Admin\ReportController;
 use App\Http\Controllers\Admin\NewsLetterController;
 use App\Http\Controllers\Admin\EventSchedulerController;
 use App\Http\Controllers\Admin\CampaignSchedulerController;
+use App\Http\Controllers\Admin\NewPatientController;
 
 /*
 |--------------------------------------------------------------------------
@@ -524,8 +525,10 @@ Route::get('/', function () {
 
 
      Route::get('/about', [AdminController::class,'about']);
+     Route::get('/contact', [AdminController::class,'contact']);
      Route::get('/refill', [AdminController::class,'refill']);
      Route::get('/newpatient', [AdminController::class,'newpatient']);
+     Route::get('/transferpatient', [AdminController::class,'transferpatient']);
      Route::get('/makeappointment', [AdminController::class,'makeappointment']);
      Route::get('/consultation', [AdminController::class,'consultation']);
      Route::get('/faq', [AdminController::class,'faq']);
@@ -540,7 +543,9 @@ Route::get('/', function () {
      Route::get('/ltcs', [AdminController::class,'ltcs']);
 
 
-     
+    // FAX
+    Route::post('/newpatient', [NewPatientController::class,'sendNewPatient']);
+    
 
      Route::get('/mypage', function() {
         return 'This is my page';

@@ -73,24 +73,26 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                                <div class="col-lg-3">
                     <div class="contect-location">
                         <div class="contact-fl">
                             <address>
                                 <div class="single-contact">
                                     <i class="icofont-map-pins"></i>
-                                    <p>11 Georgian Rd, <br>
-                                        58/A, New York City</p>
+                                    <p>4809 Argonne Street,  <br>
+                                        Suite 155, Denver CO 80249.</p>
                                 </div>
                                 <div class="single-contact">
                                     <i class="icofont-envelope"></i>
-                                    <p><a href="mailto:info@info.com">info@info.com</a><br>
-                                        <a href="mailto:info@medics.com">info@medics.com</a></p>
+                                    <p><a href="mailto:info@tksrx.com">alice@tksrx.com</a><br>
+                                        <a href="mailto:tksrxpp@gmail.com">tksrxpp@gmail.com</a></p>
                                 </div>
                                 <div class="single-contact">
                                     <i class="icofont-mobile-phone"></i>
-                                    <p><a href="tel:0123456789">01213-456-7890</a><br>
-                                        <a href="0123456789.html">01213-456-7899</a></p>
+                                    <p><a href="tel:720 583 2110"><b>Phone</b>: 720 583 2110
+                                    </a>
+                                    <br>
+                                    <a href=" fax:0123456789.html"> <b>Fax</b>: 720 583 0326</a></p>
                                 </div>
                             </address>
                         </div>

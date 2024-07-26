@@ -57,7 +57,7 @@
              <div class="col-lg-2"></div>
                 <div class="col-lg-8">
                     <div class="blog-form-area">
-                        <form name="frmContact" id="frmContact" action="{{ url('/newpatient') }}" method="post">
+                        <form name="frmContact" id="frmContact" action="{{ url('/newpatient') }}" method="post">@csrf
 						<input type="hidden" name="frmCont" name="frmCont" value="frmCont" />
                         <h3>New Patient</h3>
                             <label>Name of Patient</label>
@@ -68,7 +68,7 @@
                             <input type="text" name="newpatients_dob" id="newpatients_dob" value="" required>
                             <label>RX Number</label>
                             <input type="text" id="newpatients_rxnum" name="newpatients_rxnum" value="" required>
-                            <button class="team-1" type="submit">Send</button>
+                          <button class="team-1" type="submit">Send</button>
                         </form>
                     </div>
                 </div>

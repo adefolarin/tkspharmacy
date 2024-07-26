@@ -162,9 +162,19 @@ class AdminController extends Controller
         return view('about');
     }
 
+    public function contact()
+    {    
+        return view('contact');
+    }
+
     public function newpatient()
     {    
         return view('newpatient');
+    }
+
+    public function transferpatient()
+    {    
+        return view('transferpatient');
     }
 
     public function refill()
@@ -232,6 +242,56 @@ class AdminController extends Controller
     public function ltcs()
     {    
         return view('ltcs');
+    }
+
+
+    /********************************
+       FAX API
+    ****************************** */
+
+
+    public function sendNewPatient(Request $request)
+    {
+        //$newpatient = new NewPatient;
+    
+        $message = "You have successfully registered the new patient";
+
+        if($request->isMethod('post')) {
+            $data = $request->all();
+            //echo "<prev>"; print_r($data); die;
+
+
+                $rules = [
+                    'newpatients_name' => 'required',
+                    'newpatients_pnum' => 'required',
+                    'newpatients_dob' => 'required',
+                    'newpatients_rxnum' => 'required',
+                ];
+                $customMessages = [
+                    'newpatients_name.required' => 'Name of Patient is required',
+                    'newpatients_pnum.required' => 'Phone Number is required',
+                    'newpatients_dob.required' => 'Date of Birth is required',
+                    'newpatients_rxnum.required' => 'RX number is required',
+                ];
+                     
+
+            $this->validate($request,$rules,$customMessages);
+
+             /* $store = [
+                [
+                'newpatients_name' => $data['newpatients_name'],
+                'newpatients_pnum' => $data['newpatients_pnum'],
+                'newpatients_dob' => $data['newpatients_dob'],
+                'newpatients_rxnum' => $data['newpatients_rxnum'],
+               ]
+            ];*/
+
+
+                //$newpatient->insert($store);
+                return redirect('newpatient')->with('success_message', $message);
+            
+
+          }
     }
 
 

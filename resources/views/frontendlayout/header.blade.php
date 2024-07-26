@@ -1,5 +1,5 @@
 
-    <header class="header1">
+<header class="header1">
         <div class="header-top-bar-area">
             <div class="container">
                 <div class="row align-items-center">
@@ -10,7 +10,8 @@
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="headr-bar-right">
-                            <a href="tel:720 583 2110">720 583 2110</a>
+                            <a href="tel:720 583 2110"> Phone: 720 583 2110</a>
+                            <a href="tel:720 583 2110"> Fax: 720 583 2110</a>
                             <div class="serch-fl">
                                 <a class="ccdda" href="#"><i class="fas fa-search"></i></a>
                             </div>
@@ -54,6 +55,7 @@
                                 </li>-->
                                 <li><a href="{{ url('newpatient') }}">New Patient</a></li>
                                 <li><a href="{{ url('refill') }}">Refill Prescription</a></li>
+                                <li><a href="{{ url('transferpatient') }}">Transfer Prescription</a></li>
                                 <li><a href="#">Help</a></li>
                                 
                                 <!--<li><a href="comingsoon.html">Com</a></li>
@@ -76,13 +78,13 @@
                                    <li class="submenu_child">
                                     <a href="{{ url('mtm') }}"> Medication Therapy Management</a></li>
                                     <li class="submenu_child">
-                                    <a href="{{ url('pmc') }}"> Pharmacy Medical Consultation</a></li>
+                                    <a href="#{{ url('pmc') }}"> Pharmacy Medical Consultation</a></li>
                                     <li class="submenu_child">
-                                    <a href="{{ url('fmd') }}">Free Medication Delivery</a></li> 
+                                    <a href="#{{ url('fmd') }}">Free Medication Delivery</a></li> 
                                      <li class="submenu_child">
-                                        <a href="{{ url('tcs') }}">TKS Clinical Services</a></li>
+                                        <a href="#{{ url('tcs') }}">TKS Clinical Services</a></li>
                                     <li class="submenu_child">
-                                    <a href="{{ url('ltcs') }}"> Long Term Care Services</a></li>
+                                    <a href="#{{ url('ltcs') }}"> Long Term Care Services</a></li>
                                     <!--<ul class="dropdown-submenu second_submenu">
                                         <li><a href="services-d
                                         etails.v.3.html"></a></li>

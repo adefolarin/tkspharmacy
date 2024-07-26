@@ -15,8 +15,8 @@
                             <div class="col-lg-12">
                                 <div class="hero-containt">
                                     
-                                    <p>Your health. Our priority.</p>
-                                    <h3>100% pure <br> Pharmacy.</h3>
+                                <h3 style="font-size:58px">Welcome to <br>TKS</h3>
+                                <p>Experience the finest <br>Pharmacy services at the <br>comfort of your home.</p>
                                     <a href="{{ url('contact') }}" class="theme-btn">Contact Us</a>
                                 </div>
                             </div>
@@ -96,7 +96,7 @@
                             </h3>
                         <p>Refill Your<br>
                             Prescription</p>
-                        <a href="#" class="theme-btn">Refill here</a>
+                        <a href="{{ url('refill') }}" class="theme-btn">Refill here</a>
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-7">

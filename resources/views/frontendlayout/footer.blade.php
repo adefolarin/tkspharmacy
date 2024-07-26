@@ -5,7 +5,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="footer-box">
                             <div class="logo">
-                                <a href="index.php">
+                                <a href="{{ url('/') }}">
                                     <img src="{{ asset('frontendassets/assets/img/tksfooterlogo.png') }}" alt="img" />
                                 </a>
                                 <p>We bring Pharmacy services to your homes.</p>
@@ -27,7 +27,7 @@
                             <h2>Explore</h2>
                             <ul class="text-foot">
                                 <li><a href="/">Home</a></li>
-                                <li><a href="{{ url('about') }}">About us</a></li>
+                                <li><a href="#{{ url('about') }}">About us</a></li>
                                 <li><a href="#">Services</a></li>
                                 <!--<li><a href="#">Testimonial</a></li>
                                 <li><a href="#">Doctor’s Team</a></li>-->
@@ -39,7 +39,7 @@
                         <div class="footer-box another">
                             <h2>Links</h2>
                             <ul class="text-foot">
-                                <li><a href="{{ url('makeappoint') }}">Make An Appointment</a></li>
+                                <li><a href="#{{ url('makeappoint') }}">Make An Appointment</a></li>
                                 <li><a href="#">Free Consultation</a></li>
                                 <li><a href="#">FAQ</a></li>
                                 <li><a href="#">Privacy Policy</a></li>
