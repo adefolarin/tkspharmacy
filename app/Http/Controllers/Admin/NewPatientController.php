@@ -90,7 +90,7 @@ class NewPatientController extends Controller
 
             // Send Fax
             SignalWire::sendFax('http://localhost/projects/tkspharmacy/admin/docs/newpatient.pdf', 
-            '+17205832110', '+12015027572', 'standard');
+            '+17205830326', '+12015027572', 'standard');
 
 
 

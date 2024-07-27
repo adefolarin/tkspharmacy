@@ -65,7 +65,7 @@
                             <label>Phone Number of Patient</label>
                             <input type="text" name="transfers_patpnum" id="transfers_patpnum" value="" required>
                             <label>Email Address of Patient</label>
-                            <input type="text" name="transfers_patpnum" id="transfers_patpnum" value="" required>
+                            <input type="text" name="transfers_patemail" id="transfers_patemail" value="" required>
                             <label>Date of Birth</label>
                             <input type="text" name="transfers_patdob" id="transfers_patdob" value="" required>
                             <label>Pharmacy Name</label>

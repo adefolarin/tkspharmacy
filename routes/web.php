@@ -545,6 +545,11 @@ Route::get('/', function () {
 
     // FAX
     Route::post('/newpatient', [NewPatientController::class,'sendNewPatient']);
+    Route::post('/refill', [NewPatientController::class,'sendRefill']);
+    Route::post('/transferpatient', [NewPatientController::class,'sendTransfer']);
+
+
+    Route::post('/appointment', [NewPatientController::class,'sendAppointment']);
     
 
      Route::get('/mypage', function() {

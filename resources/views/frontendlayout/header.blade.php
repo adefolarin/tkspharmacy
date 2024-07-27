@@ -11,7 +11,8 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="headr-bar-right">
                             <a href="tel:720 583 2110"> Phone: 720 583 2110</a>
-                            <a href="tel:720 583 2110"> Fax: 720 583 2110</a>
+                            <a href="tel:720 583 2110"> Fax: 720 583 0326
+                            </a>
                             <div class="serch-fl">
                                 <a class="ccdda" href="#"><i class="fas fa-search"></i></a>
                             </div>
