@@ -53,6 +53,9 @@ use App\Http\Controllers\Admin\NewsLetterController;
 use App\Http\Controllers\Admin\EventSchedulerController;
 use App\Http\Controllers\Admin\CampaignSchedulerController;
 use App\Http\Controllers\Admin\NewPatientController;
+use App\Http\Controllers\Admin\RefillController;
+use App\Http\Controllers\Admin\TransferController;
+use App\Http\Controllers\Admin\AppointmentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -545,11 +548,11 @@ Route::get('/', function () {
 
     // FAX
     Route::post('/newpatient', [NewPatientController::class,'sendNewPatient']);
-    Route::post('/refill', [NewPatientController::class,'sendRefill']);
-    Route::post('/transferpatient', [NewPatientController::class,'sendTransfer']);
+    Route::post('/refill', [RefillController::class,'sendRefill']);
+    Route::post('/transferpatient', [TransferController::class,'sendTransfer']);
 
 
-    Route::post('/appointment', [NewPatientController::class,'sendAppointment']);
+    Route::post('/appointment', [AppointmentController::class,'sendAppointment']);
     
 
      Route::get('/mypage', function() {

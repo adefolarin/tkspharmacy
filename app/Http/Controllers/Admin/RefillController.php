@@ -49,12 +49,16 @@ class RefillController extends Controller
                     'refills_pnum' => 'required',
                     'refills_dob' => 'required',
                     'refills_rxnum' => 'required',
+                    'refills_mod' => 'required',
+                    'refills_lod' => 'required',
                 ];
                 $customMessages = [
                     'refills_name.required' => 'Name of Patient is required',
                     'refills_pnum.required' => 'Phone Number is required',
                     'refills_dob.required' => 'Date of Birth is required',
                     'refills_rxnum.required' => 'RX number is required',
+                    'refills_mod.required' => 'Mode of Delivery is required',
+                    'refills_lod.required' => 'Location of Delivery is required',
                 ];
                      
 
@@ -66,6 +70,8 @@ class RefillController extends Controller
                 'refills_pnum' => $data['refills_pnum'],
                 'refills_dob' => $data['refills_dob'],
                 'refills_rxnum' => $data['refills_rxnum'],
+                'refills_mod' => $data['refills_mod'],
+                'refills_lod' => $data['refills_lod'],
                ]
             ];
 
@@ -75,6 +81,8 @@ class RefillController extends Controller
                 'refills_pnum' => $data['refills_pnum'],
                 'refills_dob' => $data['refills_dob'],
                 'refills_rxnum' => $data['refills_rxnum'],
+                'refills_mod' => $data['refills_mod'],
+                'refills_lod' => $data['refills_lod'],
             ];
 
             $pdf = PDF::loadView('pdf/refillpdf', [
@@ -82,6 +90,8 @@ class RefillController extends Controller
                 'pnum' => $data['refills_pnum'],
                 'dob' => $data['refills_dob'],
                 'rxnum' => $data['refills_rxnum'],
+                'mod' => $data['refills_mod'],
+                'lod' => $data['refills_lod'],
                 // ... and more data if you like
             ]);
         

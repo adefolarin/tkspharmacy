@@ -45,59 +45,101 @@ class TransferController extends Controller
 
 
                 $rules = [
-                    'transfers_name' => 'required',
-                    'transfers_pnum' => 'required',
-                    'transfers_dob' => 'required',
-                    'transfers_rxnum' => 'required',
+                    'transfers_patname' => 'required',
+                    'transfers_patpnum' => 'required',
+                    'transfers_patdob' => 'required',
+                    'transfers_patemail' => 'required',
+                    'transfers_pharmname' => 'required',
+                    'transfers_pharmpnum' => 'required',
+                    'transfers_note' => 'required',
                 ];
                 $customMessages = [
-                    'transfers_name.required' => 'Name of Patient is required',
-                    'transfers_pnum.required' => 'Phone Number is required',
-                    'transfers_dob.required' => 'Date of Birth is required',
-                    'transfers_rxnum.required' => 'RX number is required',
+                    'transfers_patname.required' => 'Name of Patient is required',
+                    'transfers_patpnum.required' => 'Phone Number is required',
+                    'transfers_patdob.required' => 'Date of Birth is required',
+                    'transfers_patemail.required' => 'Email is required',
+                    'transfers_pharmname.required' => 'Name of Pharmacist is required',
+                    'transfers_pharmpnum.required' => 'Pharmacist Phone Number is required',
+                    'transfers_note.required' => 'Note is required',
+                    
                 ];
                      
 
             $this->validate($request,$rules,$customMessages);
 
-             $store = [
+            //$transfersid = rand(100000000000,999999999999);
+
+             /*$store = [
                 [
-                'transfers_name' => $data['transfers_name'],
-                'transfers_pnum' => $data['transfers_pnum'],
-                'transfers_dob' => $data['transfers_dob'],
+                'transfers_patname' => $data['transfers_patname'],
+                'transfers_patpnum' => $data['transfers_patpnum'],
+                'transfers_patdob' => $data['transfers_patdob'],
+                'transfers_patemail' => $data['transfers_patemail'],
+                'transfers_pharmname' => $data['transfers_pharmname'],
+                'transfers_pharmpnum' => $data['transfers_pharmpnum'],
+                'transfers_note' => $data['transfers_note'],
                 'transfers_rxnum' => $data['transfers_rxnum'],
+                'transfers_med' => $data['transfers_med'],
                ]
             ];
 
             $mailData = [
-                'title' => 'Mail from ' . $data['transfers_name'],
-                'transfers_name' => $data['transfers_name'],
-                'transfers_pnum' => $data['transfers_pnum'],
-                'transfers_dob' => $data['transfers_dob'],
+                'title' => 'Mail from ' . $data['transfers_patname'],
+                'transfers_patname' => $data['transfers_patname'],
+                'transfers_patpnum' => $data['transfers_patpnum'],
+                'transfers_patdob' => $data['transfers_patdob'],
+                'transfers_patemail' => $data['transfers_patemail'],
+                'transfers_pharmname' => $data['transfers_pharmname'],
+                'transfers_pharmpnum' => $data['transfers_pharmpnum'],
+                'transfers_note' => $data['transfers_note'],
                 'transfers_rxnum' => $data['transfers_rxnum'],
-            ];
+                'transfers_med' => $data['transfers_med'],
+            ];*/
+
+            for ($i=0; $i < 5; $i++) {
+                
+                foreach ($data['transfers_rxnum'] as $value) {
+                    # code...
+                }
 
             $pdf = PDF::loadView('pdf/transferpdf', [
-                'name' => $data['transfers_name'],
-                'pnum' => $data['transfers_pnum'],
-                'dob' => $data['transfers_dob'],
+                'name' => $data['transfers_patname'],
+                'pnum' => $data['transfers_patpnum'],
+                'dob' => $data['transfers_patdob'],
+                'email' => $data['transfers_patemail'],
+                'pharmname' => $data['transfers_pharmname'],
+                'pharmpnum' => $data['transfers_pharmpnum'],
+                'note' => $data['transfers_note'],
                 'rxnum' => $data['transfers_rxnum'],
-                // ... and more data if you like
+                'med' => $data['transfers_med'],
+                'medrxnums' => array('rxnum' => $data['transfers_rxnum'], 'med' => $data['transfers_med'])
+                
             ]);
-        
-            //return $pdf->download('transfer.pdf');
+
             $pdf->save('admin/docs/transfer.pdf');
 
+           }
+        
+            //return $pdf->download('transfer.pdf');
+           
+
             // Send Fax
-            SignalWire::sendFax('http://localhost/projects/tkspharmacy/admin/docs/transfer.pdf', 
-            '+17205830326', '+12015027572', 'standard');
+           // SignalWire::sendFax('http://localhost/projects/tkspharmacy/admin/docs/transfer.pdf', 
+            //'+17205830326', '+12015027572', 'standard');
+
+            
 
 
 
-        if(Mail::to('adefolarin2017@gmail.com')->send(new TransferMail($mailData))) {
-            Transfer::insert($store);
-            return redirect('transfer')->with('success_message', $message);
-        }
+            //if(Transfer::where('transfers_id', $transfersid )->exists()) {
+                //return redirect('transfer')->with('error_message', 'Something went wrong. Please try again');
+            //} else {
+                //if(Mail::to('adefolarin2017@gmail.com')->send(new TransferMail($mailData))) {
+                //  Transfer::insert($store);
+                 return redirect('transferpatient')->with('success_message', $message);
+               //}
+           // }
+
 
             
 

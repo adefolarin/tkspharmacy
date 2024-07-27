@@ -20,6 +20,7 @@ return new class extends Migration
                 $table->text('refills_rxnum');
                 $table->text('refills_mod');
                 $table->text('refills_lod');
+                $table->text('refills_refid');
                 $table->date('refills_date');
                 $table->timestamps();
             });

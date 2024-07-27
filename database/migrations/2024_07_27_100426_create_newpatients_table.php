@@ -18,6 +18,7 @@ return new class extends Migration
                 $table->text('newpatients_pnum');
                 $table->text('newpatients_dob');
                 $table->text('newpatients_rxnum');
+                $table->text('newpatients_refid');
                 $table->date('newpatients_date');
                 $table->timestamps();
             });

@@ -57,7 +57,7 @@
              <div class="col-lg-2"></div>
                 <div class="col-lg-8">
                     <div class="blog-form-area">
-                        <form name="frmContact" id="frmContact" action="{{ url('/transferpatient') }}" method="post">
+                        <form name="frmContact" id="frmContact" action="{{ url('/transferpatient') }}" method="post">@csrf
 						<input type="hidden" name="frmCont" name="frmCont" value="frmCont" />
                         <h3>Transfer Prescription Form</h3>
                             <label>Full Name of Patient</label>
@@ -69,9 +69,9 @@
                             <label>Date of Birth</label>
                             <input type="text" name="transfers_patdob" id="transfers_patdob" value="" required>
                             <label>Pharmacy Name</label>
-                            <input type="text" name="transfers_pharmname" id="transfers_phramname" value="" required>
+                            <input type="text" name="transfers_pharmname" id="transfers_pharmname" value="" required>
                             <label>Phone Number of Pharmacy</label>
-                            <input type="text" id="transfers_pharmnum" name="transfers_pharmnum" value="" required>
+                            <input type="text" id="transfers_pharmpnum" name="transfers_pharmpnum" value="" required>
                             <div class="row">
                             <div class="col-sm-6">
                                <label>RX Number</label>

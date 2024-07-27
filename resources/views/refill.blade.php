@@ -57,7 +57,7 @@
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8">
                     <div class="blog-form-area">
-                        <form name="frmContact" id="frmContact" action="{{ url('/refill') }}" method="post">
+                        <form name="frmContact" id="frmContact" action="{{ url('/refill') }}" method="post">@csrf
 						<input type="hidden" name="frmCont" name="frmCont" value="frmCont" />
                             <h3>Refill Request Form</h3>
                             <label>Name of Patient</label>

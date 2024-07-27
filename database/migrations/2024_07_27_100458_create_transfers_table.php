@@ -23,6 +23,7 @@ return new class extends Migration
                 $table->text('transfers_rxnum');
                 $table->text('transfers_med');
                 $table->text('transfers_note');
+                $table->text('transfers_refid');
                 $table->date('transfers_date');
                 $table->timestamps();
             });
