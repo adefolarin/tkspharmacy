@@ -11,10 +11,17 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('appointments', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
-        });
+        if(!Schema::hasTable('appointments')) {
+            Schema::create('appointments', function (Blueprint $table) {
+                $table->bigInteger('appointments_id')->autoIncrement();
+                $table->text('appointments_name');
+                $table->text('appointments_email');
+                $table->text('appointments_service');
+                $table->date('appointments_date');
+                $table->date('appointments_date2');
+                $table->timestamps();
+            });
+        }
     }
 
     /**

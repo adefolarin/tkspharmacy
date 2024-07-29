@@ -79,13 +79,13 @@
                                    <li class="submenu_child">
                                     <a href="{{ url('mtm') }}"> Medication Therapy Management</a></li>
                                     <li class="submenu_child">
-                                    <a href="#{{ url('pmc') }}"> Pharmacy Medical Consultation</a></li>
+                                    <a href="{{ url('mpc') }}"> Pharmacy Medical Consultation</a></li>
                                     <li class="submenu_child">
-                                    <a href="#{{ url('fmd') }}">Free Medication Delivery</a></li> 
+                                    <a href="{{ url('fmd') }}">Free Medication Delivery</a></li> 
                                      <li class="submenu_child">
-                                        <a href="#{{ url('tcs') }}">TKS Clinical Services</a></li>
+                                        <a href="{{ url('tcs') }}">TKS Clinical Services</a></li>
                                     <li class="submenu_child">
-                                    <a href="#{{ url('ltcs') }}"> Long Term Care Services</a></li>
+                                    <a href="{{ url('tc') }}"> Travel Consultation</a></li>
                                     <!--<ul class="dropdown-submenu second_submenu">
                                         <li><a href="services-d
                                         etails.v.3.html"></a></li>

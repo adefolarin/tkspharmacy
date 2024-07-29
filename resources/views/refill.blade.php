@@ -61,21 +61,21 @@
 						<input type="hidden" name="frmCont" name="frmCont" value="frmCont" />
                             <h3>Refill Request Form</h3>
                             <label>Name of Patient</label>
-                            <input type="text" name="refills_patname" id="refills_patname" value="" required>
+                            <input type="text" name="refills_name" id="refills_name" value="" required>
                             <label>Phone Number of Patient</label>
-                            <input type="text" name="refills_patpnum" id="refills_patpnum" value="" required>
+                            <input type="text" name="refills_pnum" id="refills_pnum" value="" required>
                             <label>Date of Birth</label>
-                            <input type="text" name="refills_patdob" id="refills_patdob" value="" required>
+                            <input type="text" name="refills_dob" id="refills_dob" value="" required>
                             <label>RX Number</label>
                             <input type="text" id="refills_rxnum" name="refills_rxnum" value="" required>
                             <label>Mode Of Delivery</label>
-                            <select required class="form-control" id="refills_pickupdeliv" name="refills_pickupdeliv" >
+                            <select required class="form-control" id="refills_mod" name="refills_mod" >
                                 <option value="">Select Mode of Delivery</option>
                                 <option value="Pick Up">Pick Up</option>
                                 <option value="Delivery">Delivery</option>
                             </select>
                             <label>Location of Delivery</label>
-                            <input type="text" id="refills_locationdeliv" name="refills_locationdeliv" value="" required>
+                            <input type="text" id="refills_lod" name="refills_lod" value="" required>
                             <br></br>
                             <button class="team-1" type="submit">Send</button>
                         </form>

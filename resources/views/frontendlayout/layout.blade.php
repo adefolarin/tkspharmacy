@@ -73,6 +73,12 @@ https://templatemo.com/tm-569-edu-meeting
     jQuery('#voldatetime').datetimepicker({format: 'Y-m-d H:i',timepicker: true});
 
     jQuery('#expiry').datetimepicker({format: 'Y-m-d',timepicker: false});
+
+    jQuery('#appointments_date').datetimepicker({format: 'Y-m-d H:i',timepicker: true});
+
+    jQuery('#newpatients_dob').datetimepicker({format: 'Y-m-d',timepicker: false});
+    jQuery('#refills_dob').datetimepicker({format: 'Y-m-d',timepicker: false});
+    jQuery('#transfers_patdob').datetimepicker({format: 'Y-m-d',timepicker: false});
    });
   </script>
 

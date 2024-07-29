@@ -50,54 +50,50 @@
 
 
 
-
- <!--    about-doctor-start-start-->
- <div class="about-doctors-area tedd">
+    <!--    about-doctor-start-start-->
+    <div class="about-doctors-area tedd">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="eye-list-lf teart title">
                         <h4>Medication Therapy Management</h4>
-                        <p>We provide personalized medications for patients. We create customized medication that meets patients needs.</p>
+                        <p>Our Medication Therapy Management (MTM) program is designed to help you get the most out of your medications. Our team of expert pharmacists and healthcare professionals will work with you and your healthcare providers to ensure that your medications are safe, effective, and appropriate for your specific needs.</p>
                         <div class="imgg">
-                            <img src="assets/img/services/mtm1.png" alt="">
-                            <img src="assets/img/services/mtm2.png" alt="">
+                        <img src="{{ asset('frontendassets/assets/img/services/mtm1.png') }}" alt="">
+                        <img src="{{ asset('frontendassets/assets/img/services/mtm2.png') }}" alt="">
                         </div>
-                        <p>We cover pain management, veterinary care, non sterile compunding...
+                        <p>Our aim is to improve medication effecacy and safety.
                          </p>
                     </div>
-                    <div class="eye-list-lf">
-                        <h3>Our Custom Compounding</h3>
+         Comprehensive medication reviews
+
+
+
+
+
+           <div class="eye-list-lf">
+                        <h3>Our MTM services include </h3>
                         <div class="llff">
 
                             <ul>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Non-sterile compounding
-
-
-
-
-
-
-
-
-
+                                <li><a href="#"><i class="icofont-arrow-right"></i> Personalized medication plans
 
 </a></li>
-                                <li><a href="#"><i class="icofont-arrow-right"></i> Veterinary custom compounding
+                                <li><a href="#"><i class="icofont-arrow-right"></i> 
 </a></li>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Lollipop
+                                <li><a href="#"><i class="icofont-arrow-right"></i>Medication therapy monitoring and adjustments
                                         </a></li>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Troches
+                                <li><a href="#"><i class="icofont-arrow-right"></i>Education on proper medication use and potential side effects
                                         </a></li>
 
                             </ul>
 
                             <ul>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Suspension</a></li>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Solution</a></li>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Capsules
+                                <li><a href="#"><i class="icofont-arrow-right"></i>Drug interaction and allergy screening</a></li>
+                                <!--<li><a href="#"><i class="icofont-arrow-right"></i>Solution</a></li>-->
+                                <li><a href="#"><i class="icofont-arrow-right"></i>Communication with your healthcare providers to ensure coordinated care
                                         </a></li>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Suppositories</a></li>
+                                <li><a href="#"><i class="icofont-arrow-right"></i>Regular progress assessments and reporting</a></li>
 
                             </ul>
                         </div>
@@ -108,24 +104,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="form-teart">
-                        <form name="frmRequestAppoint" id="frmRequestAppoint" action="" method="post" class="home-req">
-                                    <input type="hidden" name="frmAppoint" name="frmAppoint" /> 
-                            <h3>Book An
-                                Appointment</h3>
-                            <input type="text" placeholder="Full Name" name="fname" id="fname">
-                            <input type="email" name="femail" id="femail" placeholder=" Email*">
-                            <input placeholder="Select your Date" type="text" name="checkIn" id="datepicker" value="" class="calendar" autocomplete="off"/><i class="icofont-ui-calendar"></i>
-                            <select class="nice-select" name="fdoctor" id="fdoctor">
-                                <option data-display="Select Your services" class="option selected focus">Select  Service</option>
-                                <option value="Mediaction delivery service" class="option">Pharmacy services</option>
-                                <option value="Clinical services" class="option">Clinical services</option>
-                                <option value="Home Vaccinations" class="option"> Home Vaccinations </option>
-                                <option value="Care Services" class="option">Care Services</option>
-                                <option value="Care Services" class="option">DME</option>
-                            </select>
-
-                            <button class="team-1" type="submit">Make An Appointment</button>
-                        </form>
+                      @include('frontendlayout.appointmentform')
                     </div>
                     <div class="doctor-into mrd">
                         <h3>Pharmacy Open Hour</h3>

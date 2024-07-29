@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Validator;
 use Hash;
-//use App\Models\Transfer;
+use App\Models\Transfer;
 use Intervention\Image;
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\ImageManager;
@@ -67,21 +67,8 @@ class TransferController extends Controller
 
             $this->validate($request,$rules,$customMessages);
 
-            //$transfersid = rand(100000000000,999999999999);
+            $transfersid = rand(100000000000,999999999999);
 
-             /*$store = [
-                [
-                'transfers_patname' => $data['transfers_patname'],
-                'transfers_patpnum' => $data['transfers_patpnum'],
-                'transfers_patdob' => $data['transfers_patdob'],
-                'transfers_patemail' => $data['transfers_patemail'],
-                'transfers_pharmname' => $data['transfers_pharmname'],
-                'transfers_pharmpnum' => $data['transfers_pharmpnum'],
-                'transfers_note' => $data['transfers_note'],
-                'transfers_rxnum' => $data['transfers_rxnum'],
-                'transfers_med' => $data['transfers_med'],
-               ]
-            ];
 
             $mailData = [
                 'title' => 'Mail from ' . $data['transfers_patname'],
@@ -94,13 +81,9 @@ class TransferController extends Controller
                 'transfers_note' => $data['transfers_note'],
                 'transfers_rxnum' => $data['transfers_rxnum'],
                 'transfers_med' => $data['transfers_med'],
-            ];*/
+            ];
 
             for ($i=0; $i < 5; $i++) {
-                
-                foreach ($data['transfers_rxnum'] as $value) {
-                    # code...
-                }
 
             $pdf = PDF::loadView('pdf/transferpdf', [
                 'name' => $data['transfers_patname'],
@@ -112,12 +95,42 @@ class TransferController extends Controller
                 'note' => $data['transfers_note'],
                 'rxnum' => $data['transfers_rxnum'],
                 'med' => $data['transfers_med'],
-                'medrxnums' => array('rxnum' => $data['transfers_rxnum'], 'med' => $data['transfers_med'])
                 
             ]);
 
             $pdf->save('admin/docs/transfer.pdf');
 
+             $store = [
+                [
+                'transfers_patname' => $data['transfers_patname'],
+                'transfers_patpnum' => $data['transfers_patpnum'],
+                'transfers_patdob' => $data['transfers_patdob'],
+                'transfers_patemail' => $data['transfers_patemail'],
+                'transfers_pharmname' => $data['transfers_pharmname'],
+                'transfers_pharmpnum' => $data['transfers_pharmpnum'],
+                'transfers_note' => $data['transfers_note'],
+                'transfers_rxnum' => $data['transfers_rxnum'][$i],
+                'transfers_med' => $data['transfers_med'][$i],
+                'transfers_date' => date('Y-m-d'),
+                'transfers_refid' =>  $transfersid,
+               ]
+            ];
+
+            Transfer::insert($store);
+           
+
+           }
+
+           //return redirect('transferpatient')->with('success_message', $message);
+
+
+          if(Transfer::where('transfers_id', $transfersid )->exists()) {
+            return redirect('transfer')->with('error_message', 'Something went wrong. Please try again');
+           } else {
+            //if(Mail::to('adefolarin2017@gmail.com')->send(new TransferMail($mailData))) {
+            Transfer::insert($store);
+            return redirect('transferpatient')->with('success_message', $message);
+            //}
            }
         
             //return $pdf->download('transfer.pdf');
@@ -131,14 +144,7 @@ class TransferController extends Controller
 
 
 
-            //if(Transfer::where('transfers_id', $transfersid )->exists()) {
-                //return redirect('transfer')->with('error_message', 'Something went wrong. Please try again');
-            //} else {
-                //if(Mail::to('adefolarin2017@gmail.com')->send(new TransferMail($mailData))) {
-                //  Transfer::insert($store);
-                 return redirect('transferpatient')->with('success_message', $message);
-               //}
-           // }
+            
 
 
             

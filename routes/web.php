@@ -541,9 +541,15 @@ Route::get('/', function () {
      Route::get('/dme', [AdminController::class,'dme']);
      Route::get('/cc', [AdminController::class,'cc']);
      Route::get('/mtm', [AdminController::class,'mtm']);
+     Route::get('/mpc', [AdminController::class,'mpc']);
      Route::get('/fmd', [AdminController::class,'fmd']);
      Route::get('/tcs', [AdminController::class,'tcs']);
+     Route::get('/tc', [AdminController::class,'tc']);
      Route::get('/ltcs', [AdminController::class,'ltcs']);
+     Route::get('/newpatientpdf', [AdminController::class,'newpatientpdf']);
+
+     Route::get('/testpdf', [AdminController::class,'testpdf']);
+    
 
 
     // FAX
@@ -553,6 +559,7 @@ Route::get('/', function () {
 
 
     Route::post('/appointment', [AppointmentController::class,'sendAppointment']);
+    Route::get('/appointmentsuccess', [AppointmentController::class,'AppointmentSuccess']);
     
 
      Route::get('/mypage', function() {

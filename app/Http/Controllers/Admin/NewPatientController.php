@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Validator;
 use Hash;
-//use App\Models\NewPatient;
+use App\Models\NewPatient;
 use Intervention\Image;
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\ImageManager;
@@ -60,14 +60,18 @@ class NewPatientController extends Controller
 
             $this->validate($request,$rules,$customMessages);
 
-             /* $store = [
+            $newpatientsid = rand(100000000000,999999999999);
+
+             $store = [
                 [
                 'newpatients_name' => $data['newpatients_name'],
                 'newpatients_pnum' => $data['newpatients_pnum'],
                 'newpatients_dob' => $data['newpatients_dob'],
                 'newpatients_rxnum' => $data['newpatients_rxnum'],
+                'newpatients_date' => date('Y-m-d'),
+                'newpatients_refid' => $newpatientsid,
                ]
-            ];*/
+            ];
 
             /*$mailData = [
                 'title' => 'Mail from ' . $data['newpatients_name'],
@@ -92,12 +96,16 @@ class NewPatientController extends Controller
             SignalWire::sendFax('http://localhost/projects/tkspharmacy/admin/docs/newpatient.pdf', 
             '+17205830326', '+12015027572', 'standard');
 
+       
 
-
-        //if (Mail::to('adefolarin2017@gmail.com')->send(new NewPatientMail($mailData))) {
-            //NewPatient::insert($store);
-            return redirect('newpatient')->with('success_message', $message);
-        //}
+        if(NewPatient::where('newpatients_id', $newpatientsid )->exists()) {
+                return redirect('newpatient')->with('error_message', 'Something went wrong. Please try again');
+            } else {
+                //if(Mail::to('adefolarin2017@gmail.com')->send(new NewPatientMail($mailData))) {
+                NewPatient::insert($store);
+                return redirect('newpatient')->with('success_message', $message);
+                //}
+        }
 
             
 

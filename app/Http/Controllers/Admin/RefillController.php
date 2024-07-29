@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Validator;
 use Hash;
-//use App\Models\Refill;
+use App\Models\Refill;
 use Intervention\Image;
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\ImageManager;
@@ -64,6 +64,8 @@ class RefillController extends Controller
 
             $this->validate($request,$rules,$customMessages);
 
+            $refillsid = rand(100000000000,999999999999);
+
              $store = [
                 [
                 'refills_name' => $data['refills_name'],
@@ -72,6 +74,8 @@ class RefillController extends Controller
                 'refills_rxnum' => $data['refills_rxnum'],
                 'refills_mod' => $data['refills_mod'],
                 'refills_lod' => $data['refills_lod'],
+                'refills_date' => date('Y-m-d'),
+                'refills_refid' => $refillsid,
                ]
             ];
 
@@ -104,10 +108,16 @@ class RefillController extends Controller
 
 
 
-        if(Mail::to('adefolarin2017@gmail.com')->send(new RefillMail($mailData))) {
-            Refill::insert($store);
-            return redirect('refill')->with('success_message', $message);
-        }
+        
+
+        if(Refill::where('refills_id', $refillsid )->exists()) {
+                return redirect('refill')->with('error_message', 'Something went wrong. Please try again');
+            } else {
+                //if(Mail::to('adefolarin2017@gmail.com')->send(new RefillMail($mailData))) {
+                Refill::insert($store);
+                return redirect('refill')->with('success_message', $message);
+              // }
+         }
 
             
 

@@ -9,8 +9,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="hero-about-text text-center">
-                        <h3>Durable Medical Equipment</h3>
-                        <h4><span>Home / Service / </span> Durable Medical Equipment</h4>
+                        <h4>Medication Pharmacy Consultation</h4>
+                        <h4><span>Home/Service/ </span> Medication Pharmacy Consultation</h4>
                     </div>
                 </div>
             </div>
@@ -51,46 +51,50 @@
 
 
 
- <!--    about-doctor-start-start-->
- <div class="about-doctors-area tedd">
+    <!--    about-doctor-start-start-->
+    <div class="about-doctors-area tedd">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="eye-list-lf teart title">
-                        <h3>Durable Medical Equipment</h3>
-                        <p>We prioritize patient needs, offering personalized consultations to ensure the right equipment for individual requirements</p>
+                        <h4>Medication Pharmacy Consultation</h4>
+                        <p>At TKS, we understand the importance of expert uidance when it comes to managing your medication.</p>
                         <div class="imgg">
-                        <img src="{{ asset('frontendassets/assets/img/services/dme1.png') }}" alt="">
-                        <img src="{{ asset('frontendassets/assets/img/services/dme2.png') }}" alt="">
+                        <img src="{{ asset('frontendassets/assets/img/services/pmc1.png') }}" alt="">
+                        <img src="{{ asset('frontendassets/assets/img/services/pmc2.png') }}" alt="">
                         </div>
-                        <p>We supply quality equipment to to meet your various need from mobility, respiratory to all other medical needs.
+                        <p>Our aim is to minimize the risk of adverse reactions and interactions, optimize treatment and enhance engagements.
                          </p>
                     </div>
-                    <div class="eye-list-lf">
-                        <h3>DME include</h3>
+         
+
+
+
+
+
+           <div class="eye-list-lf">
+                        <h3>Our services include </h3>
                         <div class="llff">
 
                             <ul>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Walking Aid
-
-
+                                <li><a href="#"><i class="icofont-arrow-right"></i> Comprehensive Medication Review
 
 </a></li>
-                                <li><a href="#"><i class="icofont-arrow-right"></i> Incontinence supply
+                                <li><a href="#"><i class="icofont-arrow-right"></i> 
 </a></li>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Nebulizer
+                                <li><a href="#"><i class="icofont-arrow-right"></i>Personalized advice
                                         </a></li>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Diabetes supply
+                                <li><a href="#"><i class="icofont-arrow-right"></i>Medication therapy management
                                         </a></li>
 
                             </ul>
 
                             <ul>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Infusion pump</a></li>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Bathroom Safety Equipment</a></li>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Braces
-                                        </a></li>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Reading glasses</a></li>
+                                <li><a href="#"><i class="icofont-arrow-right"></i>Interactive sessions</a></li>
+                                <!--<li><a href="#"><i class="icofont-arrow-right"></i>Solution</a></li>-->
+                                <!--<li><a href="#"><i class="icofont-arrow-right"></i>Communication with your healthcare providers to ensure coordinated care
+                                        </a></li>-->
+                                <!--<li><a href="#"><i class="icofont-arrow-right"></i>Regular progress assessments and reporting</a></li>-->
 
                             </ul>
                         </div>
@@ -155,7 +159,7 @@
                                 aria-labelledby="pills-home-tab">
                                 <div class="work-tab-text">
                                     <h4>Send us a message</h4>
-                                    <p>You can send us a mail at alice@tksrx.com for your quality supplies. </p>
+                                    <p>You can send us a Mail at alice@tksrx.com or call 720 583 2110 </p>
                                     
                                 </div>
                             </div>

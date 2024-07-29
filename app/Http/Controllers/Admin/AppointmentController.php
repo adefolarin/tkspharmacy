@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Validator;
 use Hash;
-//use App\Models\Appointment;
+use App\Models\Appointment;
 use Intervention\Image;
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\ImageManager;
@@ -28,10 +28,12 @@ class AppointmentController extends Controller
     }
 
 
-    /********************************
-       FAX API
-    ****************************** */
 
+
+
+    public function AppointmentSuccess() {
+        return view('appointmentsuccess');
+    }
 
     public function sendAppointment(Request $request)
     {
@@ -46,15 +48,15 @@ class AppointmentController extends Controller
 
                 $rules = [
                     'appointments_name' => 'required',
-                    'appointments_pnum' => 'required',
-                    'appointments_dob' => 'required',
-                    'appointments_rxnum' => 'required',
+                    'appointments_email' => 'required',
+                    'appointments_date' => 'required',
+                    'appointments_service' => 'required',
                 ];
                 $customMessages = [
                     'appointments_name.required' => 'Name of Patient is required',
-                    'appointments_pnum.required' => 'Phone Number is required',
-                    'appointments_dob.required' => 'Date of Birth is required',
-                    'appointments_rxnum.required' => 'RX number is required',
+                    'appointments_email.required' => 'Email is required',
+                    'appointments_date.required' => 'Date is required',
+                    'appointments_service.required' => 'Select a service',
                 ];
                      
 
@@ -63,25 +65,26 @@ class AppointmentController extends Controller
              $store = [
                 [
                 'appointments_name' => $data['appointments_name'],
-                'appointments_pnum' => $data['appointments_pnum'],
-                'appointments_dob' => $data['appointments_dob'],
-                'appointments_rxnum' => $data['appointments_rxnum'],
+                'appointments_email' => $data['appointments_email'],
+                'appointments_date' => $data['appointments_date'],
+                'appointments_service' => $data['appointments_service'],
+                'appointments_date2' => date('Y-m-d'),
                ]
             ];
 
             $mailData = [
                 'title' => 'Mail from ' . $data['appointments_name'],
                 'appointments_name' => $data['appointments_name'],
-                'appointments_pnum' => $data['appointments_pnum'],
-                'appointments_dob' => $data['appointments_dob'],
-                'appointments_rxnum' => $data['appointments_rxnum'],
+                'appointments_email' => $data['appointments_email'],
+                'appointments_date' => $data['appointments_date'],
+                'appointments_service' => $data['appointments_service'],
             ];
 
 
 
         if (Mail::to('adefolarin2017@gmail.com')->send(new AppointmentMail($mailData))) {
             Appointment::insert($store);
-            return redirect('appointment')->with('success_message', $message);
+            return redirect('appointmentsuccess')->with('success_message', $message);
         }
 
             

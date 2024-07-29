@@ -19,7 +19,7 @@ return new class extends Migration
                 $table->text('transfers_patemail');
                 $table->text('transfers_patdob');
                 $table->text('transfers_pharmname');
-                $table->text('transfers_pharmnum');
+                $table->text('transfers_pharmpnum');
                 $table->text('transfers_rxnum');
                 $table->text('transfers_med');
                 $table->text('transfers_note');

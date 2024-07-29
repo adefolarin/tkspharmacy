@@ -60,8 +60,8 @@
                         <h3>Custom Compounding</h3>
                         <p>We provide personalized medications for patients. We create customized medication that meets patients needs.</p>
                         <div class="imgg">
-                            <img src="assets/img/services/cc1.png" alt="">
-                            <img src="assets/img/services/cc2.png" alt="">
+                            <img src="{{ asset('frontendassets/assets/img/services/cc1.png') }}" alt="">
+                            <img src="{{ asset('frontendassets/assets/img/services/cc2.png') }}" alt="">
                         </div>
                         <p>We cover pain management, veterinary care, non sterile compunding...
                          </p>
@@ -108,24 +108,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="form-teart">
-                        <form name="frmRequestAppoint" id="frmRequestAppoint" action="" method="post" class="home-req">
-                                    <input type="hidden" name="frmAppoint" name="frmAppoint" /> 
-                            <h3>Book An
-                                Appointment</h3>
-                            <input type="text" placeholder="Full Name" name="fname" id="fname">
-                            <input type="email" name="femail" id="femail" placeholder=" Email*">
-                            <input placeholder="Select your Date" type="text" name="checkIn" id="datepicker" value="" class="calendar" autocomplete="off"/><i class="icofont-ui-calendar"></i>
-                            <select class="nice-select" name="fdoctor" id="fdoctor">
-                                <option data-display="Select Your services" class="option selected focus">Select  Service</option>
-                                <option value="Mediaction delivery service" class="option">Pharmacy services</option>
-                                <option value="Clinical services" class="option">Clinical services</option>
-                                <option value="Home Vaccinations" class="option"> Home Vaccinations </option>
-                                <option value="Care Services" class="option">Care Services</option>
-                                <option value="Care Services" class="option">DME</option>
-                            </select>
-
-                            <button class="team-1" type="submit">Make An Appointment</button>
-                        </form>
+                      @include('frontendlayout.appointmentform')
                     </div>
                     <div class="doctor-into mrd">
                         <h3>Pharmacy Open Hour</h3>

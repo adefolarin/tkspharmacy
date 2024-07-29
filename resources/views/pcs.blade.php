@@ -60,8 +60,8 @@
                         <h3>Pharmaceutical Community Services</h3>
                         <p>At TKS Pharmacy, we are dedicated to providing high-quality pharmaceutical services and exceptional patient care. Our team of experienced professionals is committed to helping you manage your health and wellness.</p>
                         <div class="imgg">
-                            <img src="assets/img/services/pmc1.png" alt="">
-                            <img src="assets/img/services/pmc2.png" alt="">
+                        <img src="{{ asset('frontendassets/assets/img/services/pmc1.png') }}" alt="">
+                        <img src="{{ asset('frontendassets/assets/img/services/pmc2.png') }}" alt="">
                         </div>
                         <p>We believe that our responsibility extends beyond providing quality pharmaceutical products and to also contributing to the well-being of our neighbors and the environment.
                          </p>
@@ -97,24 +97,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="form-teart">
-                        <form name="frmRequestAppoint" id="frmRequestAppoint" action="https://medics.themechampion.com/html/pharmacy/contact_process.php" method="post" class="home-req">
-									<input type="hidden" name="frmAppoint" name="frmAppoint" /> 
-                            <h3>Book An
-                                Appointment</h3>
-                            <input type="text" placeholder="Full Name" name="fname" id="fname">
-							<input type="email" name="femail" id="femail" placeholder=" Email*">
-                            <input placeholder="Select your Date" type="text" name="checkIn" id="datepicker" value="" class="calendar" autocomplete="off"/><i class="icofont-ui-calendar"></i>
-							<select class="nice-select" name="fdoctor" id="fdoctor">
-								<option data-display="Select Your services" class="option selected focus">Select  Service</option>
-								<option value="Mediaction delivery service" class="option">Pharmacy services</option>
-								<option value="Clinical services" class="option">Clinical services</option>
-								<option value="Home Vaccinations" class="option"> Home Vaccinations </option>
-								<option value="Care Services" class="option">Care Services</option>
-                                <option value="Care Services" class="option">DME</option>
-                            </select>
-
-                            <button class="team-1" type="submit">Make An Appointment</button>
-                        </form>
+                      @include('frontendlayout.appointmentform')
                     </div>
                     <div class="doctor-into mrd">
                         <h3>Pharmacy Open Hour</h3>

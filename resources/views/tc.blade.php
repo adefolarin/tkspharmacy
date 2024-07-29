@@ -3,21 +3,6 @@
 @section('content')
      <!-- common banner -->
      
-    <!-- hero-about-area start -->
-    <div class="banner-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="hero-about-text text-center">
-                        <h3>Durable Medical Equipment</h3>
-                        <h4><span>Home / Service / </span> Durable Medical Equipment</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- hero-about-area End -->
-
             @if($errors->any())
                     <div class="alert alert-danger" style="margin-top:50px;padding:30px;">
                         <ul>
@@ -49,48 +34,51 @@
         <!-- common banner -->
 
 
-
-
- <!--    about-doctor-start-start-->
- <div class="about-doctors-area tedd">
+            <!--    about-doctor-start-start-->
+    <div class="about-doctors-area tedd">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="eye-list-lf teart title">
-                        <h3>Durable Medical Equipment</h3>
-                        <p>We prioritize patient needs, offering personalized consultations to ensure the right equipment for individual requirements</p>
+                        <h4>Travel Consultation</h4>
+                        <p>At TKS, we provide medical travel guides, tips and personalized advisory to ensure a healthy travel                           experience.
+                        </p>
                         <div class="imgg">
-                        <img src="{{ asset('frontendassets/assets/img/services/dme1.png') }}" alt="">
-                        <img src="{{ asset('frontendassets/assets/img/services/dme2.png') }}" alt="">
+                            <img src="{{ asset('frontendassets/assets/img/services/travelconsult.png') }}" alt="">
+                            <img src="{{ asset('frontendassets/assets/img/services/longtermservices2.png') }}" alt="">
                         </div>
-                        <p>We supply quality equipment to to meet your various need from mobility, respiratory to all other medical needs.
-                         </p>
+                        <p>
+                        </p>
                     </div>
-                    <div class="eye-list-lf">
-                        <h3>DME include</h3>
+        
+
+                        <div class="eye-list-lf">
+                        <h3>Our Travel consultation services include:</h3>
                         <div class="llff">
 
                             <ul>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Walking Aid
-
-
-
-</a></li>
-                                <li><a href="#"><i class="icofont-arrow-right"></i> Incontinence supply
-</a></li>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Nebulizer
+                  
+                                <!--<li><a href="#"><i class="icofont-arrow-right"></i> UTI
+                                
+                                </a></li>-->
+                                <li><a href="#"><i class="icofont-arrow-right"></i> Vaccinations
+                                </a></li>
+                                <li><a href="#"><i class="icofont-arrow-right"></i>Medications
                                         </a></li>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Diabetes supply
-                                        </a></li>
+                                <!--<li><a href="#"><i class="icofont-arrow-right"></i>Flu
+                                        </a></li>-->
 
                             </ul>
 
                             <ul>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Infusion pump</a></li>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Bathroom Safety Equipment</a></li>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Braces
+                                <li><a href="#"><i class="icofont-arrow-right"></i>Over the counter</a></li>
+                                <!--<li><a href="#"><i class="icofont-arrow-right"></i>Acne</a></li>-->
+                                <li><a href="#"><i class="icofont-arrow-right"></i>Dos and donts of travel
                                         </a></li>
-                                <li><a href="#"><i class="icofont-arrow-right"></i>Reading glasses</a></li>
+                                <li><a href="#"><i class="icofont-arrow-right"></i>Advisory</a></li>
+
+                            
+                            <!--<li><a href="#"><i class="icofont-arrow-right"></i></a></li>-->
 
                             </ul>
                         </div>
@@ -155,7 +143,7 @@
                                 aria-labelledby="pills-home-tab">
                                 <div class="work-tab-text">
                                     <h4>Send us a message</h4>
-                                    <p>You can send us a mail at alice@tksrx.com for your quality supplies. </p>
+                                    <p>You can send us a Mail at tksrxpp@gmail.com or call 720 583 2110 </p>
                                     
                                 </div>
                             </div>
@@ -163,7 +151,7 @@
                                 aria-labelledby="pills-profile-tab">
                                 <div class="work-tab-text">
                                     <h4>You can walk in or book an appointment with us today</h4>
-                                    <p>Get in touch with us today to learn more about our services and how we can support your health journey.</p>
+                                    <p>Get in touch with us today to learn more about our services and how we can support your                                   health journey.</p>
                                     <p>
                                 </div>
                             </div>
@@ -171,8 +159,9 @@
                                 aria-labelledby="pills-contact-tab">
                                 <div class="work-tab-text">
                                     <h4>We attend to both new and returning with satisfaction</h4>
-                                    <p>You can call or fax your prescription for refill. <br>Phone: 720 583 2110 <br>Fax: 720 583 2110
- </p>
+                                    <p>You can call or fax your prescription for refill. <br>Phone: 720 583 2110 
+                                    <br>Fax: 720 583 0326
+                                    </p>
                                     <p>
                                 </div>
                             </div>
@@ -183,6 +172,9 @@
         </div>
     </div>
     <!--    work-tab-area-end-->
+
+
+
 
 
     @endsection

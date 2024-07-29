@@ -2,19 +2,22 @@
 
 @section('content')
      <!-- common banner -->
-        <section class="common-banner" 
-        style="background-image: url('frontendassets/assets/images/banner/common-banner-bg.png');">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="common-banner-title">
-                            <h3>NEWSLETTER SUBSCRIPTION</h3>
-                            <a href="/">Home </a>/
-                            <span> Newsletter</span>
-                        </div>
+     
+    <!-- hero-about-area start -->
+    <div class="banner-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hero-about-text text-center">
+                        <h4>Appointment Request</h4>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- hero-about-area End -->
+
+
             @if($errors->any())
                     <div class="alert alert-danger" style="margin-top:50px;padding:30px;">
                         <ul>
@@ -45,6 +48,7 @@
 
         </section>
         <!-- common banner -->
+
 
 
 

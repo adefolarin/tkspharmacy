@@ -229,6 +229,11 @@ class AdminController extends Controller
         return view('mtm');
     }
 
+    public function mpc()
+    {    
+        return view('mpc');
+    }
+
     public function fmd()
     {    
         return view('fmd');
@@ -239,9 +244,24 @@ class AdminController extends Controller
         return view('tcs');
     }
 
+    public function tc()
+    {    
+        return view('tc');
+    }
+
     public function ltcs()
     {    
         return view('ltcs');
+    }
+
+    public function newpatientpdf()
+    {    
+        return view('pdf.newpatientpdf');
+    }
+
+    public function testpdf()
+    {    
+        return view('pdf.testpdf');
     }
 
 

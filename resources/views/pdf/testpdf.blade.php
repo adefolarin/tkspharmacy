@@ -69,7 +69,7 @@
  
     <tr>
     @foreach($rxnum as $val)
-       <td> {{ $val }} </td>
+       <td> val </td><td> val </td><td> val </td><td> val </td><td> val </td>
     @endforeach
     </tr>
  
@@ -81,7 +81,7 @@
 
     <tr>
     @foreach($med as $val)
-       <td> {{ $val }} </td>
+       <td> val </td><td> val </td><td> val </td><td> val </td><td> val </td>
     @endforeach
     </tr>
 
