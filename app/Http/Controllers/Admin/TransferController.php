@@ -18,6 +18,10 @@ use App\Mail\TransferMail;
 use Barryvdh\DomPDF\Facade\Pdf;
 use HalilCosdu\SignalWire\Facades\SignalWire;
 
+require './././././vendor/autoload.php';
+
+use SignalWire\Rest\Client;
+
 class TransferController extends Controller
 { 
     //
@@ -123,11 +127,19 @@ class TransferController extends Controller
 
            //return redirect('transferpatient')->with('success_message', $message);
 
+            $client = new Client('151c9b92-06c7-4e52-b3cf-c720dae2f209', 
+            'PT2cf2f36bca3c6adf7e63871df720774bbdcece6c846d8378', 
+            array("signalwireSpaceUrl" => "tksrx.signalwire.com"));
 
           if(Transfer::where('transfers_id', $transfersid )->exists()) {
             return redirect('transfer')->with('error_message', 'Something went wrong. Please try again');
            } else {
             //if(Mail::to('adefolarin2017@gmail.com')->send(new TransferMail($mailData))) {
+            $fax = $client->fax->v1->faxes
+                                   ->create("+17205830326", // to
+                                    "https://tksrx.com/admin/docs/transfer.pdf", // mediaUrl
+                                    array("from" => "+12015101145")
+                                   );
             Transfer::insert($store);
             return redirect('transferpatient')->with('success_message', $message);
             //}

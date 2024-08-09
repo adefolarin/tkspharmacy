@@ -45,6 +45,10 @@ $app->singleton(
 
 //$app->configure('dompdf');
 
+//$app->register(\halilcosdu\laravel-signalwire\SignalWireServiceProvider::class);
+
+//$app->configure('signalwire');
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application

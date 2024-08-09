@@ -98,7 +98,7 @@ class ContactController extends Controller
                ];
 
               
-                if(Mail::to('adefolarin2017@gmail.com')->send(new ContactMail($mailData))) {
+                if(Mail::to('mosesy327@gmail.com')->send(new ContactMail($mailData))) {
                     Contact::insert($store);
                     return redirect('contact')->with('success_message', $message);
                 }

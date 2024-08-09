@@ -160,24 +160,23 @@
 
 
         <!--    product-area-start-->
-        <div class="product-area">
+    <div class="product-area">
         <img src="{{ asset('frontendassets/assets/img/homepage2/round-sheap.png') }}" alt="" class="round-sheap">
         <div class="container">
             <div class="row pb-120">
                 <div class="col-lg-4 col-md-5">
                     <div class="single-product">
-                        <img src="{{ asset('frontendassets/assets/img/homepage2/p1x.png') }}" alt="">
-                        <h3>Save Time<br>
+                        <img src="') }}" alt="">
+                        <h3 class="text-center">Your Health<br>
                             </h3>
-                        <p>Refill Your<br>
-                            Prescription</p>
-                        <a href="{{ url('refill') }}" class="theme-btn">Refill here</a>
+                        <p class="text-center" style="color:#fff;">Our Priority</p>
+                        <p class="text-center"><a href="{{ url('contact') }}" class="theme-btn">Contact Us</a></p>
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-7">
                     <div class="single-product" style="background-image: url({{ asset('frontendassets/assets/img/homepage2/p2-bg.png') }})">
-                    <video width="400" controls>
-                    <source src="mov_bbb.mp4" type="video/mp4">
+                    <video width="100%" height="100%" controls>
+                    <source src="{{ asset('frontendassets/assets/video/aamdemo.mp4') }}" type="video/mp4">
                     <source src="mov_bbb.ogg" type="video/ogg">
                     Your browser does not support HTML video.
                     </video>

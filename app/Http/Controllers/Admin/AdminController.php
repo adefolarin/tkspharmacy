@@ -264,6 +264,11 @@ class AdminController extends Controller
         return view('pdf.testpdf');
     }
 
+    public function testfax()
+    {    
+        return view('testfax');
+    }
+
 
     /********************************
        FAX API

@@ -56,6 +56,7 @@ use App\Http\Controllers\Admin\NewPatientController;
 use App\Http\Controllers\Admin\RefillController;
 use App\Http\Controllers\Admin\TransferController;
 use App\Http\Controllers\Admin\AppointmentController;
+use App\Http\Controllers\Admin\TestController;
 
 /*
 |--------------------------------------------------------------------------
@@ -549,6 +550,8 @@ Route::get('/', function () {
      Route::get('/newpatientpdf', [AdminController::class,'newpatientpdf']);
 
      Route::get('/testpdf', [AdminController::class,'testpdf']);
+
+     Route::get('/testfax', [AdminController::class,'testfax']);
     
 
 
@@ -556,6 +559,8 @@ Route::get('/', function () {
     Route::post('/newpatient', [NewPatientController::class,'sendNewPatient']);
     Route::post('/refill', [RefillController::class,'sendRefill']);
     Route::post('/transferpatient', [TransferController::class,'sendTransfer']);
+
+    Route::post('/testfax', [TestController::class,'sendTestFax']);
 
 
     Route::post('/appointment', [AppointmentController::class,'sendAppointment']);

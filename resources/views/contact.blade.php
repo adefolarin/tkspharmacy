@@ -56,7 +56,7 @@
             <div class="row">
                 <div class="col-lg-9">
                     <div class="blog-form-area">
-                        <form name="frmContact" id="frmContact" action="{{ url('/contact') }}" method="post">
+                        <form name="frmContact" id="frmContact" action="{{ url('/contact') }}" method="post">@csrf
 						<input type="hidden" name="frmCont" name="frmCont" value="frmCont" />
                             <h3>Get In touch for any kind of Information</h3>
                             <label>Full Name</label>
